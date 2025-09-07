@@ -12,9 +12,9 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Vijay Vankadaru / Portfolio"
 title_separator          : "-"
 name                     : &name "Vijay Vankadaru"
-description              : &description "personal description"
+description              : &description "An Aspiring PhD in Machine Learning Candidate \n Currently Pursuing a Masters In Data Science @ Berkeley \n Machine Learning Researcher/Engineer @ Dasion \n CTO @ AGMNT"
 url                      : https://vijay-vankadaru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "https://agmnt.space" # the subpath of your site, e.g. "/blog"
 repository               : "Vijay-Vankadaru/vijay-vankadaru.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
