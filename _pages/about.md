@@ -1,6 +1,3 @@
-Here's the content formatted for your Jekyll file:
-
-```markdown
 ---
 permalink: /
 title: "Vijay Vankadaru - ML Research Engineer & Aspiring PhD Candidate"
@@ -97,4 +94,3 @@ The future of AI lies in systems that can understand human communication as comp
 ---
 
 *For more details about my research projects, publications in progress, technical implementations, and multimodal AI work, please explore the navigation menu above.*
-```
