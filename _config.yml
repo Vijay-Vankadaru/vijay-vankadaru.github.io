@@ -25,15 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Vijay Vankadaru"
   pronouns         : # example: "she/her"  
-  bio              : |
-                    Aspiring AI/ML PhD Candidate
-                    Masters In Data Science @ Berkeley
-                    ML Researcher/Engineer @ Dasion
-                    CTO @ AGMNT
-  location         : "Brea, CA"
+  bio              : "Aspiring AI/ML PhD Candidate<br/>Masters In Data Science @ Berkeley<br/>ML Researcher/Engineer @ Dasion<br/>CTO @ AGMNT"
   employer         : "Dasion"
   uri              : # URL
-  email            : "vankadaruvijay@berkeley.com" 
+  email            : "vankadaruvijay@berkeley.edu" 
 
   # Academic websites
   academia         : # URL
