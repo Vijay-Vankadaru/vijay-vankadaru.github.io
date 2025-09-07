@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Vijay Vankadaru"
   pronouns         : # example: "she/her"  
-  bio              : "Aspiring PhD in Machine Learning Candidate\n Currently Pursuing a Masters In Data Science @ Berkeley\n Machine Learning Researcher/Engineer @ Dasion\n CTO @ AGMNT"
+  bio              : "Aspiring PhD in Machine Learning Candidate\n Currently Pursuing a Masters In Data Science @ Berkeley\n Machine Learning Researcher/Engineer @ Dasion\n CTO @ AGMNT" #fix this
   location         : "Brea, CA"
   employer         : "Dasion"
   uri              : # URL
@@ -42,7 +42,7 @@ author:
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
-  startup          : "" # URL
+  startup          : "https://agmnt.space" # URL
 
 
   # Repositories and software development
