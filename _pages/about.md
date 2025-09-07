@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Vijay Vankadaru - ML Research Engineer & Aspiring PhD Candidate"
+title: "ML Research Engineer & Aspiring PhD Candidate"
 author_profile: true
 redirect_from: 
   - /about/
