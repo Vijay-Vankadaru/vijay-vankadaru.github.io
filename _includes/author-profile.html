@@ -68,9 +68,7 @@
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
       {% endif %}
-      {% if author.startup %}
-      <li><a href="{{ author.startup }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>Start Up - AGMNT</a></li>
-    {% endif %}
+
 
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}
@@ -168,6 +166,9 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
+      {% if author.startup %}
+      <li><a href="{{ author.startup }}"><i class="ai ai-academia ai-fw icon-pad-right"></i>AGMNT</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>
