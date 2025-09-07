@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Vijay Vankadaru"
   pronouns         : # example: "she/her"  
-  bio              : "Aspiring AI/ML PhD Candidate\n Pursuing Masters In Data Science @ Berkeley\n Machine Learning Researcher/Engineer @ Dasion\n CTO @ AGMNT" #fix this
+  bio              : "Aspiring AI/ML PhD Candidate\n Masters In Data Science @ Berkeley\n ML Researcher/Engineer @ Dasion\n CTO @ AGMNT" #fix this
   location         : "Brea, CA"
   employer         : "Dasion"
   uri              : # URL
