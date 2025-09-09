@@ -41,11 +41,11 @@ I also serve as CTO and Co-Founder of AGMNT, where I built multimodal recommenda
 Current Research Projects
 ======
 
-**Clinical-Grade Audio Reasoning for Depression Detection** *(In Progress)*
+**Neural Audio Sentiment Analysis for Clinical Depression Detection** *(In Progress)*
 
 A comprehensive clinical validation study developing interpretable multimodal reasoning systems for mental health assessment. This work combines acoustic voice analysis with conversational NLP to create AI systems that provide transparent, step-by-step clinical reasoning. The system processes both voice biomarkers (fundamental frequency, pause patterns, voice quality) and linguistic features (sentiment, semantic content, discourse markers) through parallel reasoning pathways suitable for healthcare deployment.
 
-**Ultra-Fast Reasoning Models for Multimodal Content Intelligence** *(In Progress)*
+**Ultra-Fast Reasoning Models for Audio Intelligence** *(In Progress)*
 
 Research on efficient neural architectures that achieve real-time multimodal analysis through parallel reasoning frameworks and cross-modal knowledge distillation. This work explores how linguistic understanding can accelerate audio processing and how acoustic features can enhance NLP tasks, with applications in content moderation, engagement prediction, and real-time user experience optimization.
 
