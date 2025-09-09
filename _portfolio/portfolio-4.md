@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Research Overview
 
-This ongoing research project focuses on developing ultra-fast reasoning models for audio content intelligence, with emphasis on computational efficiency and real-time deployment. The work explores novel neural architectures that can achieve real-time multimodal analysis through parallel reasoning frameworks.
+This ongoing research project, initiated in June 2025, focuses on developing ultra-fast reasoning models for audio content intelligence, with emphasis on computational efficiency and real-time deployment. The work explores novel neural architectures that can achieve real-time multimodal analysis through parallel reasoning frameworks.
 
 ## Research Problem in Real-Time Audio Processing
 
@@ -46,3 +46,10 @@ Traditional audio processing systems often struggle with real-time performance r
 - **Timeline**: Planned submission for 2025 conference cycle
 - **Open Science**: Plans for code and model release upon publication
 - **Industry Impact**: Focus on practical applications and real-world deployment
+
+## Code and Resources
+
+- **GitHub Repository**: [Coming Soon] - Implementation code and model architectures will be released upon publication
+- **Model Weights**: [Coming Soon] - Pre-trained models will be made available for research use
+- **Preprint**: [Coming Soon] - Preprint will be available on arXiv prior to conference submission
+- **Demo**: [Coming Soon] - Interactive demo showcasing real-time audio processing capabilities

@@ -6,7 +6,7 @@ collection: portfolio
 
 ## Research Overview
 
-This ongoing research project focuses on developing neural audio sentiment analysis systems for clinical depression detection. The work aims to create interpretable AI systems that provide transparent, step-by-step clinical reasoning suitable for healthcare deployment.
+This ongoing research project, initiated in May 2025, focuses on developing neural audio sentiment analysis systems for clinical depression detection. The work aims to create interpretable AI systems that provide transparent, step-by-step clinical reasoning suitable for healthcare deployment.
 
 ## Research Motivation and Clinical Significance
 
@@ -46,3 +46,9 @@ Current depression detection methods often lack transparency in their decision-m
 - **Timeline**: Planned submission for 2025 conference cycle
 - **Open Science**: Plans for code and dataset release upon publication
 - **Clinical Impact**: Focus on healthcare applications and clinical validation
+
+## Code and Resources
+
+- **GitHub Repository**: [Coming Soon] - Code and implementation details will be released upon publication
+- **Dataset**: [Coming Soon] - Clinical validation datasets will be made available following publication
+- **Preprint**: [Coming Soon] - Preprint will be available on arXiv prior to conference submission
