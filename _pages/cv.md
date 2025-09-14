@@ -22,7 +22,7 @@ DASION (Research collaboration with CEO: Professor Weiqing Gu, Harvey Mudd Colle
 
   -   Developed interpretable CNN models using PyTorch and SHAP for clinical imaging analysis, achieving 93% diagnostic accuracy (95% CI: 89.2-96.8%, p<0.001) through randomized controlled validation across multiple clinical datasets with effect size d=1.2
 
-  -   Designed LSTM-based voice biomarker framework for depression detection implementing 5-fold cross-validation with leave-one-subject-out methodology, achieving 85% classification accuracy (95% CI: 81.3-88.7%) with strong correlation to PHQ-9 scores (r=0.76, p<0.001)
+  -   Designed LSTM-based voice biomarker framework for depression detection implementing 5-fold cross-validation with leave-one-subject-out methodology, achieving 85% classification accuracy (95% CI: 81.3-88.7%) with strong correlation to PHQ-8 scores (r=0.76, p<0.001) using DAIC-VOZ dataset
 
   -   Conducted power analysis determining n=500 sample size for 80% power, implemented stratified sampling to control for demographic confounds, and employed Bonferroni correction for multiple comparisons across 15+ voice features
 
@@ -80,20 +80,20 @@ Research Publications & Projects
 **Neural Audio Sentiment Analysis for Clinical Depression Detection**  
 *In Preparation, Expected: December 2025*
 
-• **Research Hypothesis**: Voice prosodic features demonstrate significant correlation with PHQ-9 depression scores (H₁: r>0.7) enabling clinical-grade automated detection
+•   **Research Hypothesis**: Voice prosodic features demonstrate significant correlation with PHQ-8 depression scores (H₁: r>0.7) enabling clinical-grade automated detection using DAIC-VOZ dataset
 
-• **Methodology**: Prospective cohort study (n=500) with stratified random sampling, implementing CNN-LSTM architectures with attention mechanisms. Statistical analysis includes 5-fold cross-validation, leave-one-subject-out validation, Pearson correlation analysis with 95% confidence intervals, and effect size reporting (Cohen's d). Controls for demographic confounds through multivariate regression
+•   **Methodology**: Prospective cohort study (n=500) with stratified random sampling, implementing CNN-LSTM architectures with attention mechanisms. Statistical analysis includes 5-fold cross-validation, leave-one-subject-out validation, Pearson correlation analysis with 95% confidence intervals, and effect size reporting (Cohen's d). Controls for demographic confounds through multivariate regression
 
-• **Validation Protocol**: IRB-approved clinical validation with inter-rater reliability testing (target κ>0.8), statistical power analysis (β=0.8, α=0.05), and systematic bias assessment including selection bias mitigation and generalizability testing across clinical populations
+•   **Validation Protocol**: IRB-approved clinical validation with inter-rater reliability testing (target κ>0.8), statistical power analysis (β=0.8, α=0.05), and systematic bias assessment including selection bias mitigation and generalizability testing across clinical populations
 
 **Ultra-Fast Reasoning Models for Audio Content Intelligence**  
 *In Preparation, Expected: May 2026*
 
-• **Research Gap**: Current audio analysis methods lack real-time inference capabilities suitable for large-scale deployment while maintaining statistical rigor in performance evaluation
+•   **Research Gap**: Current audio analysis methods lack real-time inference capabilities suitable for large-scale deployment while maintaining statistical rigor in performance evaluation
 
-• **Methodology**: Comparative experimental design evaluating transformer architectures with systematic ablation studies. Statistical framework includes repeated measures ANOVA for performance comparison, multiple comparison correction (Bonferroni), and bootstrap confidence intervals for inference time measurements
+•   **Methodology**: Comparative experimental design evaluating transformer architectures with systematic ablation studies. Statistical framework includes repeated measures ANOVA for performance comparison, multiple comparison correction (Bonferroni), and bootstrap confidence intervals for inference time measurements
 
-• **Experimental Controls**: Randomized model initialization, stratified dataset splits preventing data leakage, statistical significance testing for architecture comparisons, and comprehensive reproducibility protocol with fixed random seeds and version control
+•   **Experimental Controls**: Randomized model initialization, stratified dataset splits preventing data leakage, statistical significance testing for architecture comparisons, and comprehensive reproducibility protocol with fixed random seeds and version control
 
 Statistical & Research Methodology Expertise
 ======
