@@ -17,62 +17,62 @@ Education
 Research Experience
 ======
 
-**Machine Learning Research Engineer** | Sep 2021 – Present  
-*DASION (Research collaboration with CEO: Professor Weiqing Gu, Harvey Mudd College)*
+**Machine Learning Research Engineer**  
+DASION (Research collaboration with CEO: Professor Weiqing Gu, Harvey Mudd College) | Sep 2021 – Present
 
-• Developed interpretable CNN models using PyTorch and SHAP for clinical imaging analysis, achieving 93% diagnostic accuracy (95% CI: 89.2-96.8%, p<0.001) through randomized controlled validation across multiple clinical datasets with effect size d=1.2
+  -   Developed interpretable CNN models using PyTorch and SHAP for clinical imaging analysis, achieving 93% diagnostic accuracy (95% CI: 89.2-96.8%, p<0.001) through randomized controlled validation across multiple clinical datasets with effect size d=1.2
 
-• Designed LSTM-based voice biomarker framework for depression detection implementing 5-fold cross-validation with leave-one-subject-out methodology, achieving 85% classification accuracy (95% CI: 81.3-88.7%) with strong correlation to PHQ-9 scores (r=0.76, p<0.001)
+  -   Designed LSTM-based voice biomarker framework for depression detection implementing 5-fold cross-validation with leave-one-subject-out methodology, achieving 85% classification accuracy (95% CI: 81.3-88.7%) with strong correlation to PHQ-9 scores (r=0.76, p<0.001)
 
-• Conducted power analysis determining n=500 sample size for 80% power, implemented stratified sampling to control for demographic confounds, and employed Bonferroni correction for multiple comparisons across 15+ voice features
+  -   Conducted power analysis determining n=500 sample size for 80% power, implemented stratified sampling to control for demographic confounds, and employed Bonferroni correction for multiple comparisons across 15+ voice features
 
-• Secured NSF Phase I and II grants totaling $2.5M for clinical ML research, leading cross-functional research team of 8 engineers with IRB-approved protocols for human subjects research
+  -   Secured NSF Phase I and II grants totaling $2.5M for clinical ML research, leading cross-functional research team of 8 engineers with IRB-approved protocols for human subjects research
 
-• Created automated NLP system for clinical documentation using BERT fine-tuning with inter-annotator reliability κ=0.82, reducing manual processing time by 60% (95% CI: 52-68%, p<0.001) through randomized clinical trial design
+  -   Created automated NLP system for clinical documentation using BERT fine-tuning with inter-annotator reliability κ=0.82, reducing manual processing time by 60% (95% CI: 52-68%, p<0.001) through randomized clinical trial design
 
-**Machine Learning Research Intern** | Jun 2021 – Sep 2021  
-*DASION (Research collaboration with Professor Weiqing Gu, Harvey Mudd College)*
+**Machine Learning Research Intern**  
+DASION (Research collaboration with Professor Weiqing Gu, Harvey Mudd College) | Jun 2021 – Sep 2021
 
-• Developed clinical data preprocessing pipelines for depression biomarker extraction, implementing systematic feature engineering with statistical validation across 10K+ patient records using bootstrapping for confidence interval estimation
+  -   Developed clinical data preprocessing pipelines for depression biomarker extraction, implementing systematic feature engineering with statistical validation across 10K+ patient records using bootstrapping for confidence interval estimation
 
-• Built evaluation dashboard with comprehensive statistical reporting including ROC analysis (AUC=0.89), precision-recall curves, and McNemar's test for model comparison significance testing
+  -   Built evaluation dashboard with comprehensive statistical reporting including ROC analysis (AUC=0.89), precision-recall curves, and McNemar's test for model comparison significance testing
 
-• Optimized clinical data processing pipelines with A/B testing framework implementing proper randomization, controlling for selection bias, and statistical power calculations
+  -   Optimized clinical data processing pipelines with A/B testing framework implementing proper randomization, controlling for selection bias, and statistical power calculations
 
 Professional Experience
 ======
 
-**CTO & Co-Founder** | Feb 2024 – Present  
-*AGMNT | San Ramon, CA*
+**CTO & Co-Founder**  
+AGMNT, San Ramon, CA | Feb 2024 – Present
 
-• Built production recommendation engine using TensorFlow with systematic A/B testing framework, implementing randomized controlled experiments with proper sample size calculations (n=2,500 per group) and statistical significance testing
+  -   Built production recommendation engine using TensorFlow with systematic A/B testing framework, implementing randomized controlled experiments with proper sample size calculations (n=2,500 per group) and statistical significance testing
 
-• Conducted multivariate testing with Bonferroni correction for multiple comparisons, achieving statistically significant improvements in conversion rates (28% increase, 95% CI: 22-34%, p<0.001)
+  -   Conducted multivariate testing with Bonferroni correction for multiple comparisons, achieving statistically significant improvements in conversion rates (28% increase, 95% CI: 22-34%, p<0.001)
 
-• Implemented experimental design methodology with randomization, stratification by user demographics, and intention-to-treat analysis serving 10K+ users
+  -   Implemented experimental design methodology with randomization, stratification by user demographics, and intention-to-treat analysis serving 10K+ users
 
-**Machine Learning Research Engineer (Contract)** | Sep 2023 – Feb 2024  
-*Angel Technologies | Brea, CA*
+**Machine Learning Research Engineer (Contract)**  
+Angel Technologies, Brea, CA | Sep 2023 – Feb 2024
 
-• Researched automated compliance detection algorithms using systematic literature review and gap analysis, implementing transformer models with cross-validation and statistical significance testing
+  -   Researched automated compliance detection algorithms using systematic literature review and gap analysis, implementing transformer models with cross-validation and statistical significance testing
 
-• Developed enterprise NLP solution with rigorous evaluation methodology including precision-recall analysis, achieving 40% processing time reduction (95% CI: 32-48%, p<0.001) with effect size d=0.8
+  -   Developed enterprise NLP solution with rigorous evaluation methodology including precision-recall analysis, achieving 40% processing time reduction (95% CI: 32-48%, p<0.001) with effect size d=0.8
 
-• Implemented predictive analytics platform with proper experimental controls, statistical power analysis (β=0.8), and multiple hypothesis correction
+  -   Implemented predictive analytics platform with proper experimental controls, statistical power analysis (β=0.8), and multiple hypothesis correction
 
-**Machine Learning Intern** | May 2023 – Aug 2023  
-*Ambassadore Healthcare Inc. | Artesia, CA*
+**Machine Learning Intern**  
+Ambassadore Healthcare Inc., Artesia, CA | May 2023 – Aug 2023
 
-• Engineered distributed data pipeline with systematic performance evaluation using statistical process control, achieving 75% storage optimization (95% CI: 68-82%) with rigorous benchmarking methodology
+  -   Engineered distributed data pipeline with systematic performance evaluation using statistical process control, achieving 75% storage optimization (95% CI: 68-82%) with rigorous benchmarking methodology
 
-• Implemented statistical modeling in Scala/Spark with cross-validation, significance testing, and confidence interval reporting for sub-100ms query latency validation
+  -   Implemented statistical modeling in Scala/Spark with cross-validation, significance testing, and confidence interval reporting for sub-100ms query latency validation
 
-**Software Engineer Intern** | Jun 2022 – Aug 2022  
-*Royal Majesty Home Care | Long Beach, CA*
+**Software Engineer Intern**  
+Royal Majesty Home Care, Long Beach, CA | Jun 2022 – Aug 2022
 
-• Created AI-driven scheduling optimization system using randomized controlled trial design, achieving 40% operational efficiency improvement (95% CI: 32-48%, p<0.001) with proper statistical controls
+  -   Created AI-driven scheduling optimization system using randomized controlled trial design, achieving 40% operational efficiency improvement (95% CI: 32-48%, p<0.001) with proper statistical controls
 
-• Implemented systematic evaluation methodology with pre-post analysis and statistical significance testing for $200K cost reduction validation
+  -   Implemented systematic evaluation methodology with pre-post analysis and statistical significance testing for $200K cost reduction validation
 
 Research Publications & Projects
 ======
