@@ -1,7 +1,7 @@
 ---
 title: 'The Gap Between Building ML Systems and Doing ML Research'
-date: 2024-08-20
-permalink: /posts/2024/08/industry-to-research/
+date: 2025-08-20
+permalink: /posts/2025/08/industry-to-research/
 tags:
   - research
   - reflection

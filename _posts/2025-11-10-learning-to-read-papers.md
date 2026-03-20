@@ -1,7 +1,7 @@
 ---
 title: 'Learning to Actually Read Papers'
-date: 2024-11-10
-permalink: /posts/2024/11/learning-to-read-papers/
+date: 2025-11-10
+permalink: /posts/2025/11/learning-to-read-papers/
 tags:
   - research
   - reflection
