@@ -1,4 +1,9 @@
 # Academic Pages
+
+Vijay Vankadaru's academic portfolio. ML researcher focused on multimodal learning, temporal modeling, and ML reliability.
+
+---
+
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")

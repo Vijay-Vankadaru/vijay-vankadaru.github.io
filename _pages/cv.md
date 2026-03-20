@@ -9,160 +9,119 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.S. in Information and Data Science, University of California, Berkeley, 2026 (expected)
-* B.S. in Computer Science, University of California, Riverside, 2025
+## Education
 
-Research Experience
-======
+**University of California, Berkeley** — M.S. Information and Data Science (MIDS), GPA: 4.0
+Expected August 2026. Relevant coursework: Applied Machine Learning, Natural Language Processing, Computer Vision.
 
-**Machine Learning Research Engineer**  
-DASION (Research collaboration with CEO: Professor Weiqing Gu, Harvey Mudd College) | Sep 2021 – Present
+**University of California, Riverside** — B.S. Computer Science, GPA: 4.0
+June 2025.
 
-  -   Developed interpretable CNN models using PyTorch and SHAP for clinical imaging analysis, achieving 93% diagnostic accuracy (95% CI: 89.2-96.8%, p<0.001) through randomized controlled validation across multiple clinical datasets with effect size d=1.2
+---
 
-  -   Designed LSTM-based voice biomarker framework for depression detection implementing 5-fold cross-validation with leave-one-subject-out methodology, achieving 85% classification accuracy (95% CI: 81.3-88.7%) with strong correlation to PHQ-8 scores (r=0.76, p<0.001) using DAIC-VOZ dataset
+## Research Experience
 
-  -   Conducted power analysis determining n=500 sample size for 80% power, implemented stratified sampling to control for demographic confounds, and employed Bonferroni correction for multiple comparisons across 15+ voice features
+**Graduate Research Assistant** — UC Berkeley (Advisor: Prof. Tanya Roosta)
+January 2026 – Present
 
-  -   Secured NSF Phase I and II grants totaling $2.5M for clinical ML research, leading cross-functional research team of 8 engineers with IRB-approved protocols for human subjects research
+- Co-authored systems-level survey on hallucination in medical LLMs, synthesizing
+  50+ papers on structural mechanisms, detection, mitigation, and benchmarking
+  through a risk management lens. Published MetaArXiv March 2026.
+- Developing novel detection and mitigation methods for LLMs building on survey
+  findings, targeting submission to a top-tier ML venue.
 
-  -   Created automated NLP system for clinical documentation using BERT fine-tuning with inter-annotator reliability κ=0.82, reducing manual processing time by 60% (95% CI: 52-68%, p<0.001) through randomized clinical trial design
+**Graduate Research Assistant** — UC Berkeley (Advisor: Prof. Cornelia Paulik)
+August 2025 – Present
 
-**Machine Learning Research Intern**  
-DASION (Research collaboration with Professor Weiqing Gu, Harvey Mudd College) | Jun 2021 – Sep 2021
+- Built RAG pipeline for pediatric medical QA combining dense encoders and sparse
+  retrieval (BM25) with cross-encoder reranking, improving accuracy by 34% and
+  reducing hallucinations by 42% over baseline.
+- Developed PyTorch classifiers for age-group segmentation (0–2, 3–5, 6–12,
+  13–18), achieving 94% accuracy for targeted QA.
 
-  -   Developed clinical data preprocessing pipelines for depression biomarker extraction, implementing systematic feature engineering with statistical validation across 10K+ patient records using bootstrapping for confidence interval estimation
+**Machine Learning Researcher** — DASION (Research collaboration with Prof. Weiqing Gu, Harvey Mudd College)
+September 2021 – Present, Claremont, CA (Remote)
 
-  -   Built evaluation dashboard with comprehensive statistical reporting including ROC analysis (AUC=0.89), precision-recall curves, and McNemar's test for model comparison significance testing
+- Developed multimodal depression detection using Wav2Vec 2.0 audio and
+  MT5/RoBERTa text transformers with CTC temporal alignment and multi-instance
+  learning, achieving F1=0.94 on DAIC-WOZ.
+- Secured $2.5M in NSF Phase I and II funding for clinical ML research. Led team
+  of 8 engineers building production ML infrastructure on AWS, achieving 99.9%
+  uptime and deploying models to 5+ institutions.
+- Built interpretable CNN models using PyTorch and SHAP for clinical imaging
+  achieving 93% diagnostic accuracy. Developed BERT-based NLP for clinical
+  documentation reducing manual processing by 60%.
 
-  -   Optimized clinical data processing pipelines with A/B testing framework implementing proper randomization, controlling for selection bias, and statistical power calculations
+**Machine Learning Research Engineer (Contract)** — Angel Technologies
+September 2023 – February 2024, Brea, CA
 
-Professional Experience
-======
+- Built transformer-based NLP system for automated regulatory compliance
+  detection using fine-tuned BERT models, reducing processing time by 40% and
+  error rates by 85%.
+- Developed predictive models using time-series forecasting for customer behavior
+  analysis, improving conversion by 30%.
 
-**CTO & Co-Founder**  
-AGMNT, San Ramon, CA | Feb 2024 – Present
+---
 
-  -   Built production recommendation engine using TensorFlow with systematic A/B testing framework, implementing randomized controlled experiments with proper sample size calculations (n=2,500 per group) and statistical significance testing
+## Professional Experience
 
-  -   Conducted multivariate testing with Bonferroni correction for multiple comparisons, achieving statistically significant improvements in conversion rates (28% increase, 95% CI: 22-34%, p<0.001)
+**Chief Technology Officer** — AGMNT
+February 2024 – Present, San Ramon, CA (Hybrid, Part-time)
 
-  -   Implemented experimental design methodology with randomization, stratification by user demographics, and intention-to-treat analysis serving 10K+ users
+- Built TensorFlow recommendation engine and full-stack platform (Node.js, React,
+  MongoDB) serving 10K+ users and 15+ brands, improving conversion rates by 28%.
+- Implemented A/B testing framework processing 1M+ daily events to drive product
+  decisions.
 
-**Machine Learning Research Engineer (Contract)**  
-Angel Technologies, Brea, CA | Sep 2023 – Feb 2024
+**Machine Learning Intern** — Ambassadore Healthcare Inc.
+May 2023 – August 2023, Artesia, CA
 
-  -   Researched automated compliance detection algorithms using systematic literature review and gap analysis, implementing transformer models with cross-validation and statistical significance testing
+- Engineered distributed data pipeline using Kafka and MongoDB processing 100GB+
+  daily clinical data with statistical modeling in Scala/Spark, achieving 75%
+  storage optimization and sub-100ms query latency.
 
-  -   Developed enterprise NLP solution with rigorous evaluation methodology including precision-recall analysis, achieving 40% processing time reduction (95% CI: 32-48%, p<0.001) with effect size d=0.8
+**Software Engineer Intern** — Royal Majesty Home Care
+June 2022 – August 2022, Long Beach, CA
 
-  -   Implemented predictive analytics platform with proper experimental controls, statistical power analysis (β=0.8), and multiple hypothesis correction
+- Built AI scheduling system using decision trees and linear programming,
+  reducing overtime costs by $200K annually.
 
-**Machine Learning Intern**  
-Ambassadore Healthcare Inc., Artesia, CA | May 2023 – Aug 2023
+---
 
-  -   Engineered distributed data pipeline with systematic performance evaluation using statistical process control, achieving 75% storage optimization (95% CI: 68-82%) with rigorous benchmarking methodology
+## Publications
 
-  -   Implemented statistical modeling in Scala/Spark with cross-validation, significance testing, and confidence interval reporting for sub-100ms query latency validation
+**Rethinking Medical LLM Hallucinations: A System-Level Survey**
+Matthews, Vankadaru, Roosta, Passban. MetaArXiv, March 2026.
+Survey arguing hallucination in medical LLMs is a structural property of
+probabilistic generation. Synthesizes detection, mitigation, and benchmark
+literature through a systems and risk management lens.
 
-**Software Engineer Intern**  
-Royal Majesty Home Care, Long Beach, CA | Jun 2022 – Aug 2022
+**Multimodal Multi-Instance Learning for Depression Detection** *(Target: NeurIPS 2026)*
+First multimodal MIL framework for depression detection combining MT5/RoBERTa
+text with Wav2Vec 2.0 audio via CTC temporal alignment. Achieves F1>0.90 on
+DAIC-WOZ, surpassing text-only MIL baseline (F1=0.88). Directly addresses
+interviewer bias via strict prompt exclusion.
 
-  -   Created AI-driven scheduling optimization system using randomized controlled trial design, achieving 40% operational efficiency improvement (95% CI: 32-48%, p<0.001) with proper statistical controls
+**PedRAG: Retrieval-Augmented Generation for Pediatric Medical QA** *(Target: ICML Poster 2026)*
+RAG framework combining dense and sparse retrieval with age-specific
+classification, achieving 34% accuracy improvement and 42% hallucination
+reduction over baselines.
 
-  -   Implemented systematic evaluation methodology with pre-post analysis and statistical significance testing for $200K cost reduction validation
+---
 
-Research Publications & Projects
-======
+## Technical Skills
 
-**Neural Audio Sentiment Analysis for Clinical Depression Detection**  
-*In Preparation, Expected: December 2025*
+**Languages:** Python, R, C++, SQL, JavaScript
 
-•   **Research Hypothesis**: Voice prosodic features demonstrate significant correlation with PHQ-8 depression scores (H₁: r>0.7) enabling clinical-grade automated detection using DAIC-VOZ dataset
+**ML/AI:** PyTorch, TensorFlow, Hugging Face, SHAP, MLflow, Pandas, NumPy,
+Scikit-learn, AWS (SageMaker, Lambda, S3, EC2), Docker, PostgreSQL, MongoDB
 
-•   **Methodology**: Prospective cohort study (n=500) with stratified random sampling, implementing CNN-LSTM architectures with attention mechanisms. Statistical analysis includes 5-fold cross-validation, leave-one-subject-out validation, Pearson correlation analysis with 95% confidence intervals, and effect size reporting (Cohen's d). Controls for demographic confounds through multivariate regression
+**Certifications:** AWS Certified Machine Learning — Specialty (2025),
+Linear Algebra with Applications in ML (Harvey Mudd College)
 
-•   **Validation Protocol**: IRB-approved clinical validation with inter-rater reliability testing (target κ>0.8), statistical power analysis (β=0.8, α=0.05), and systematic bias assessment including selection bias mitigation and generalizability testing across clinical populations
+---
 
-**Ultra-Fast Reasoning Models for Audio Content Intelligence**  
-*In Preparation, Expected: May 2026*
+## Grants and Funding
 
-•   **Research Gap**: Current audio analysis methods lack real-time inference capabilities suitable for large-scale deployment while maintaining statistical rigor in performance evaluation
-
-•   **Methodology**: Comparative experimental design evaluating transformer architectures with systematic ablation studies. Statistical framework includes repeated measures ANOVA for performance comparison, multiple comparison correction (Bonferroni), and bootstrap confidence intervals for inference time measurements
-
-•   **Experimental Controls**: Randomized model initialization, stratified dataset splits preventing data leakage, statistical significance testing for architecture comparisons, and comprehensive reproducibility protocol with fixed random seeds and version control
-
-Statistical & Research Methodology Expertise
-======
-
-**Experimental Design**: Randomized controlled trials, factorial designs, A/B testing with proper randomization, stratified sampling, power analysis and sample size calculations
-
-**Statistical Analysis**: Hypothesis testing, confidence interval estimation, effect size reporting (Cohen's d, eta-squared), multiple comparison corrections (Bonferroni, FDR), correlation analysis with significance testing
-
-**Clinical Research Methods**: IRB protocol development, inter-rater reliability testing (Cohen's kappa), clinical validation protocols, bias assessment and mitigation, longitudinal study design
-
-**Machine Learning Validation**: Cross-validation methodologies, statistical significance testing for model comparisons, bootstrap confidence intervals, ROC analysis with statistical testing, systematic hyperparameter optimization
-
-Technical Skills
-======
-
-**Machine Learning & AI**: PyTorch, TensorFlow, Hugging Face, MLflow, SHAP, OpenAI/Claude APIs, NumPy, Pandas, Scikit-learn
-
-**Statistical Computing**: R, SPSS, SAS, statistical power analysis, bootstrap methods, permutation testing
-
-**Programming Languages**: Python, R, Java, JavaScript, TypeScript, C++, SQL, Scala
-
-**Research Tools**: Statistical analysis software, experimental design platforms, clinical data management systems
-
-**Infrastructure & Cloud**: AWS (SageMaker, Lambda, S3, EC2), MongoDB, PostgreSQL
-
-Certifications & Coursework
-======
-
-**AWS Certified Machine Learning - Specialty** (2025)
-
-**Linear Algebra with Applications in Machine Learning** (Harvey Mudd College)
-
-**Statistical Methods in Clinical Research** (Coursework)
-
-**Experimental Design and Analysis** (Coursework)
-
-Grants & Funding
-======
-
-**NSF Phase I and II Grants**: $2.5M for clinical machine learning research (2021-2026)
-
-**Co-investigator** on IRB-approved clinical validation studies for voice-based depression detection
-
-**Statistical consultant** for multi-site clinical research protocols
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Research Interests
-======
-* Statistical validation of audio-based biomarkers for mental health assessment
-* Rigorous experimental design for clinical AI system validation
-* Interpretable machine learning with statistical significance testing
-* Multi-site clinical validation methodologies for AI systems
-* Reproducible research practices in healthcare AI
-
-Awards and Recognition
-======
-* NSF Phase I and II grants recipient (DASION collaboration with Professor Weiqing Gu)
-* AWS Machine Learning Specialty Certification (In Progress)
-* Clinical validation achievements in depression detection and medical imaging analysis
-* Production system reliability: 99.9% uptime for healthcare AI infrastructure
-
-Service and Leadership
-======
-* Technical lead for 8-engineer team at DASION
-* Mentor and trainer for ML engineering interns
-* Co-founder and CTO of AGMNT startup
-* Active contributor to open-source ML projects
+NSF Phase I and II Grants — $2.5M for clinical ML research (2021–2026),
+in collaboration with Prof. Weiqing Gu at Harvey Mudd College.

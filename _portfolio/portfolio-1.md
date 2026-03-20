@@ -1,44 +1,51 @@
 ---
-title: "Multimodal Clinical AI: Voice-Based Depression Detection System"
-excerpt: "Led research team developing voice analysis ML pipeline for clinical depression detection, achieving 85% classification accuracy with NSF Phase I and II funding support."
+title: "Multimodal Multi-Instance Learning for Depression Detection"
+excerpt: "First multimodal MIL framework combining Wav2Vec 2.0 audio with MT5/RoBERTa text via CTC temporal alignment for depression detection on DAIC-WOZ."
 collection: portfolio
 ---
 
-## Research Overview
+## Overview
 
-This project involved leading a research team at DASION to develop a multimodal clinical AI system for depression detection using voice analysis. The work was conducted as private research at DASION with NSF Phase I and II funding support and collaboration with Professor Weiqing Gu from Harvey Mudd College.
+This project develops the first multimodal Multi-Instance Learning (MIL)
+framework for depression detection, treating clinical interviews as bags of
+multimodal instances. Each participant response has both a text representation
+(MT5-small + RoBERTa-base ensemble) and an audio representation (Wav2Vec 2.0
+with CTC temporal alignment). Bag-level depression labels supervise
+instance-level predictions through interpretable aggregation rules.
 
-## Research Problem and Clinical Significance
+Work conducted at DASION in collaboration with Prof. Weiqing Gu (Harvey Mudd
+College), with NSF Phase I and II funding.
 
-Depression affects millions worldwide, yet current diagnostic methods rely heavily on subjective self-reporting and clinical interviews. This research aimed to develop an objective, voice-based biomarker system for depression detection that could complement traditional diagnostic approaches.
+## The Problem
+
+Prior work on depression detection either uses audio alone or text alone,
+or fuses them in ways that don't preserve temporal correspondence between
+modalities. A second problem: most systems include interviewer prompts in
+the input, contaminating results with interviewer-specific patterns that
+won't generalize to new settings.
 
 ## Technical Approach
 
-- **Audio Feature Extraction**: Developed comprehensive acoustic feature extraction pipeline analyzing fundamental frequency, voice quality, pause patterns, and spectral characteristics
-- **Neural Network Architecture**: Implemented multimodal fusion techniques combining acoustic features with linguistic content analysis
-- **Clinical Validation**: Designed rigorous clinical validation studies with proper statistical analysis and cross-validation protocols
+**Multimodal fusion via CTC alignment** — Wav2Vec 2.0 audio features are
+temporally aligned with MT5/RoBERTa text representations using Connectionist
+Temporal Classification, preserving the correspondence between spoken words
+and their acoustic properties.
 
-## Research Results
+**Multi-Instance Learning** — Each interview is a bag; each participant
+response turn is an instance. The model learns bag-level labels (depressed /
+not depressed) while generating interpretable instance-level attention weights
+showing which responses drove the prediction.
 
-- Achieved **85% classification accuracy** on clinical depression detection
-- Developed real-time inference capabilities with sub-second response times
-- Created interpretable AI system providing transparent decision-making for clinical deployment
+**Interviewer bias mitigation** — Strict exclusion of interviewer prompts
+from all inputs, directly addressing the bias problem documented by Burdisso
+et al. (2024).
 
-## Research Collaboration and Funding
+## Results
 
-- **NSF Phase I and II funding** supporting the research initiative
-- **Research collaboration with Professor Weiqing Gu** (Harvey Mudd College)
-- **Project Lead** - led research team and technical implementation
-- **Private Research at DASION** - proprietary healthcare AI research
+- F1 > 0.90 on DAIC-WOZ (baseline: 0.88, Zhang et al. 2025)
+- Outperforms audio-only and text-only MIL baselines
+- Interpretable alpha/beta aggregation rules preserved at inference
 
-## Technical Challenges and Solutions
+## Target Venue
 
-- Addressed real-time processing requirements for clinical applications
-- Developed robust feature extraction for diverse voice characteristics
-- Implemented interpretable AI frameworks suitable for healthcare deployment
-
-## Future Research Directions
-
-- Expanding to additional mental health conditions
-- Integrating with electronic health records
-- Developing mobile-based assessment tools 
+NeurIPS 2026. Full code and model release planned upon submission.
