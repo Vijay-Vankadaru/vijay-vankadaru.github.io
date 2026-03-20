@@ -95,3 +95,4 @@ June 2022 – August 2022, Long Beach, CA
 ## Grants and Funding
 
 NSF Phase I and II Grants — $2.5M for clinical ML research (2021–2026), in collaboration with Prof. Weiqing Gu at Harvey Mudd College.
+
