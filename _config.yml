@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Vijay Vankadaru / Portfolio"
+title                    : "Vijay Vankadaru"
 title_separator          : "-"
 name                     : &name "Vijay Vankadaru"
-description              : &description "ML Researcher @ DASION | Graduate Researcher @ UC Berkeley | CTO @ AGMNT"
+description              : &description "ML researcher working on mechanistic interpretability of language and vision-language models. MS Data Science at UC Berkeley."
 url                      : https://vijay-vankadaru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Vijay-Vankadaru/vijay-vankadaru.github.io"
@@ -25,15 +25,15 @@ author:
   avatar           : "profile.png"
   name             : "Vijay Vankadaru"
   pronouns         : # example: "she/her"  
-  bio              : "ML Researcher @ DASION<br/>Graduate Researcher @ UC Berkeley<br/>CTO @ AGMNT"
-  employer         : "DASION"
+  bio              : "MS Data Science, UC Berkeley<br/>Mechanistic interpretability of LLMs and VLMs<br/>Machine Learning Engineer, DASION"
+  employer         : 
   uri              : # URL
   email            : "vankadaruvijay@berkeley.edu" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # b"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=YPu-3Y0AAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0005-5677-0455"
@@ -41,7 +41,7 @@ author:
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
-  startup          : "https://agmnt.space" # URL
+  startup          : # URL
 
 
   # Repositories and software development
@@ -89,8 +89,10 @@ author:
 #     title: #'Conference Papers'
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  manuscripts:
-    title: 'Research Papers'
+  published:
+    title: 'Peer-Reviewed Publications'
+  review:
+    title: 'Under Review and In Preparation'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -126,7 +128,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -222,16 +224,10 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
+  research:
     output: true
     permalink: /:collection/:path/
 
@@ -256,15 +252,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -272,25 +259,18 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _portfolio
+      share: false
+      comments: false
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      share: false
+      comments: false
+
 
 
 # Sass/SCSS

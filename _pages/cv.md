@@ -10,90 +10,57 @@ redirect_from:
 
 {% include base_path %}
 
+[Download PDF](/files/Vijay_Vankadaru_CV.pdf){: .btn .btn--info}
+
 ## Education
 
-**University of California, Berkeley** — M.S. Information and Data Science (MIDS), GPA: 4.0
-Expected August 2026. Relevant coursework: Applied Machine Learning, Natural Language Processing, Computer Vision.
+**University of California, Berkeley**, Master of Data Science, Machine Learning emphasis. GPA 4.0. Expected May 2027.
+Coursework: NLP with Deep Learning, Computer Vision, Applied Machine Learning, Causal Inference, Data Engineering, Statistics.
 
-**University of California, Riverside** — B.S. Computer Science, GPA: 4.0
-June 2025.
-
----
-
-## Research Experience
-
-**Graduate Research Assistant** — UC Berkeley (Advisor: Prof. Tanya Roosta)
-January 2026 – Present
-
-- Co-authored systems-level survey on hallucination in medical LLMs, synthesizing 50+ papers on structural mechanisms, detection, mitigation, and benchmarking through a risk management lens. Published MetaArXiv March 2026.
-- Developing novel detection and mitigation methods for LLMs building on survey findings, targeting submission to a top-tier ML venue.
-
-**Graduate Research Assistant** — UC Berkeley (Advisor: Prof. Cornelia Paulik)
-August 2025 – Present
-
-- Built RAG pipeline for pediatric medical QA combining dense encoders and sparse retrieval (BM25) with cross-encoder reranking, improving accuracy by 34% and reducing hallucinations by 42% over baseline.
-- Developed PyTorch classifiers for age-group segmentation (0–2, 3–5, 6–12, 13–18), achieving 94% accuracy for targeted QA.
-
-**Machine Learning Researcher** — DASION (Research collaboration with Prof. Weiqing Gu, Harvey Mudd College)
-September 2021 – Present, Claremont, CA (Remote)
-
-- Developed multimodal depression detection using Wav2Vec 2.0 audio and MT5/RoBERTa text transformers with CTC temporal alignment and multi-instance learning, achieving F1=0.94 on DAIC-WOZ.
-- Secured $2.5M in NSF Phase I and II funding for clinical ML research. Led team of 8 engineers building production ML infrastructure on AWS, achieving 99.9% uptime and deploying to 5+ institutions.
-- Built interpretable CNN models using PyTorch and SHAP for clinical imaging achieving 93% diagnostic accuracy. Developed BERT-based NLP for clinical documentation reducing manual processing by 60%.
-
-**Machine Learning Research Engineer (Contract)** — Angel Technologies
-September 2023 – February 2024, Brea, CA
-
-- Built transformer-based NLP system for automated regulatory compliance detection using fine-tuned BERT models, reducing processing time by 40% and error rates by 85%.
-- Developed predictive models using time-series forecasting for customer behavior analysis, improving conversion by 30%.
-
----
+**University of California, Riverside**, B.S. Computer Science. June 2025.
 
 ## Publications
 
-**Rethinking Medical LLM Hallucinations: A System-Level Survey**
-Matthews, Vankadaru, Roosta, Passban. MetaArXiv, March 2026.
-Survey arguing hallucination in medical LLMs is a structural property of probabilistic generation. Synthesizes detection, mitigation, and benchmark literature through a systems and risk management lens.
+1. **V. Vankadaru**, V. DuTell. Vision-Language Models Trust What They Can Discern. *eXCV Workshop, ECCV 2026.*
+2. **V. Vankadaru**, A. Matthews, T. Roosta, P. Passban. Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination. *DAIH Workshop, COLM 2026.* [arXiv:2607.00158](https://arxiv.org/abs/2607.00158)
+3. A. Matthews, **V. Vankadaru**, T. Roosta, P. Passban. Rethinking Medical LLM Hallucinations: A System-Level Survey. *Artificial Intelligence in Medicine*, in press.
+4. **V. Vankadaru**, V. DuTell. Believing Is Seeing: How LLaVA Models Weigh a Contradicting Image. Under review, ICLR 2027.
+5. E. S. Danthinne, **V. Vankadaru**, et al. Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making: A Sociodemographic Subgroup Assessment Approach for Open-Source Glioma Molecular Subtype Classifiers. In review.
+6. A. Ge, **V. Vankadaru**, X. Liu, et al. Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction. In review.
+7. **V. Vankadaru**. A Recipe for Multimodal Multi-Instance Depression Detection: Frozen Teachers, Schedule-Aware Training, and Audio Contribution Diagnostics. Under review, ACL Rolling Review.
 
-**Multimodal Multi-Instance Learning for Depression Detection** *(Target: NeurIPS 2026)*
-First multimodal MIL framework for depression detection combining MT5/RoBERTa text with Wav2Vec 2.0 audio via CTC temporal alignment. Achieves F1>0.90 on DAIC-WOZ, surpassing text-only MIL baseline (F1=0.88). Directly addresses interviewer bias via strict prompt exclusion.
+## Research Experience
 
-**PedRAG: Retrieval-Augmented Generation for Pediatric Medical QA** *(Target: ICML Poster 2026)*
-RAG framework combining dense and sparse retrieval with age-specific classification, achieving 34% accuracy improvement and 42% hallucination reduction over baselines.
+**UC Berkeley, Graduate Researcher**
 
----
+*Advisor: [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell). Apr 2026 to present.*
+- Studied how vision-language models (CLIP-LLaVA) weigh an image against contradicting text, applying activation patching and logit lens to measure the decision; models trust whichever input they can discern. First author, ECCV 2026.
+- Extended the study to three LLaVA models and four kinds of image-text conflict, adding an evaluation on real photographs (NaturalBench) and multiple-testing correction. Full paper under review at ICLR 2027.
 
-## Professional Experience
+*Advisor: [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta). Jan 2026 to present.*
+- Led a neuron-level hallucination study of medical LLMs (BioMistral, Meditron, Llama 3.1): linear probes on hidden activations detect hallucination at AUROC 0.77 to 0.86, yet steering those same neurons cannot reliably suppress it. First author, COLM 2026.
 
-**Chief Technology Officer** — AGMNT
-February 2024 – Present, San Ramon, CA (Hybrid, Part-time)
+**UCSF M2AI Lab, Graduate Researcher**. *Advisor: [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil). Jun 2026 to present.*
+- Externally validated three open-source MRI classifiers on a 3,380-patient cohort and showed that errors AUROC hides are driven by age: specificity 54% for patients under 40 vs 80% for 55 and older.
+- Scaled ground-truth labels from 442 to 3,380 patients with an LLM extraction pipeline over 9,377 pathology reports (F1 0.96 to 0.97), which powered subgroup tests with bootstrap CIs, permutation tests, and FDR correction.
 
-- Built TensorFlow recommendation engine and full-stack platform (Node.js, React, MongoDB) serving 10K+ users and 15+ brands, improving conversion rates by 28%.
-- Implemented A/B testing framework processing 1M+ daily events to drive product decisions.
+**UMSOM Tensor Lab, Graduate Researcher**. *Advisor: [Dr. Bradley A. Maron](https://www.medschool.umaryland.edu/profiles/maron-bradley/). Jun 2026 to present.*
+- Designed Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmarked it against mutational signatures and a from-scratch MuAt transformer on 8,800 TCGA tumors across 20 cancer types.
+- Showed that feature tables with XGBoost beat the transformer (0.738 vs 0.528 balanced accuracy) and transfer to 913 held-out tumors.
 
-**Machine Learning Intern** — Ambassadore Healthcare Inc.
-May 2023 – August 2023, Artesia, CA
+## Industry Experience
 
-- Engineered distributed data pipeline using Kafka and MongoDB processing 100GB+ daily clinical data with statistical modeling in Scala/Spark, achieving 75% storage optimization and sub-100ms query latency.
+**DASION**, Machine Learning Engineer, Jun 2025 to present. ML Engineering Intern, Sep 2021 to Jun 2025. Claremont, CA.
+- Built a multimodal depression detection model on clinical interview audio and transcripts in PyTorch (wav2vec2 and RoBERTa encoders, gated-attention multi-instance pooling), reaching F1 0.87 on DAIC-WOZ with occlusion diagnostics for per-modality attribution.
+- Fine-tuned BERT for clinical documentation classification and deployed models as AWS inference endpoints serving 5+ institutions.
+- Trained ResNet50 transfer-learning classifiers for lung and cardiac imaging (93% diagnostic accuracy) and a bidirectional LSTM with attention for voice-based depression screening (85% accuracy).
 
-**Software Engineer Intern** — Royal Majesty Home Care
-June 2022 – August 2022, Long Beach, CA
+## Service
 
-- Built AI scheduling system using decision trees and linear programming, reducing overtime costs by $200K annually.
+- Reviewer: InterpScience Workshop (NeurIPS 2026), Actionable Interpretability Workshop (COLM 2026), eXCV Workshop (ECCV 2026)
+- Presenter, DAIH Workshop at COLM 2026; lead fellow presenter, The Tensor Lab
+- BlueDot Impact Technical AI Safety course, 2026
 
----
+## Skills
 
-## Technical Skills
-
-**Languages:** Python, R, C++, SQL, JavaScript
-
-**ML/AI:** PyTorch, TensorFlow, Hugging Face, SHAP, MLflow, Pandas, NumPy, Scikit-learn, AWS (SageMaker, Lambda, S3, EC2), Docker, PostgreSQL, MongoDB
-
-**Certifications:** AWS Certified Machine Learning — Specialty (2025), Linear Algebra with Applications in ML (Harvey Mudd College)
-
----
-
-## Grants and Funding
-
-NSF Phase I and II Grants — $2.5M for clinical ML research (2021–2026), in collaboration with Prof. Weiqing Gu at Harvey Mudd College.
-
+Python, PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, SQL, C++, R, AWS, Docker, Linux, LaTeX
