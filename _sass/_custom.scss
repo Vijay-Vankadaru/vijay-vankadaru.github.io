@@ -11,8 +11,8 @@
   --ink-3: #6e6e6e;
   --rule: #2a2a2a;
   --rule-strong: #f2f2f2;
-  --accent: #e2453c;        /* editorial red: one accent, used sparingly */
-  --accent-dim: #b8362f;
+  --accent: #c4ad7a;        /* muted brass: one accent, used sparingly */
+  --accent-dim: #9b8a5e;
   --review: #a6a6a6;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
@@ -38,7 +38,7 @@
 
 html { font-size: 17px; background: var(--bg); }
 body { background: var(--bg); color: var(--ink); }
-::selection { background: var(--accent); color: #fff; }
+::selection { background: var(--accent); color: #000; }
 
 body, .page__content, .archive, .sidebar, .masthead { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
 h1, h2, h3, .page__title, .archive__item-title, .author__name { font-family: var(--serif); color: var(--ink); letter-spacing: -0.015em; font-weight: 600; }
@@ -86,7 +86,7 @@ h1, h2, h3, .page__title, .archive__item-title, .author__name { font-family: var
 .hero__meta { display: flex; flex-wrap: wrap; gap: 0; border: 1px solid var(--rule-strong); width: fit-content; max-width: 100%; }
 .chip { display: inline-flex; align-items: center; font-family: var(--mono); font-size: 0.7em; letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 14px; color: var(--ink); border-right: 1px solid var(--rule-strong); }
 .chip:last-child { border-right: none; }
-.chip--accent { background: var(--accent); color: #fff; }
+.chip--accent { background: var(--accent); color: #000; }
 .chip--teal { color: var(--ink); }
 
 /* Stats strip */
@@ -154,7 +154,7 @@ h1, h2, h3, .page__title, .archive__item-title, .author__name { font-family: var
 .tag { border: 1px solid var(--rule); color: var(--ink-2); margin-right: 4px; }
 .pill { background: var(--ink); color: var(--bg) !important; border: 1px solid var(--ink); border-right: none; }
 .pill:last-child { border-right: 1px solid var(--ink); }
-.pill:hover { background: var(--accent); border-color: var(--accent); color: #fff !important; }
+.pill:hover { background: var(--accent); border-color: var(--accent); color: #000 !important; }
 .pill--ghost { background: transparent; color: var(--ink) !important; border: 1px solid var(--ink); }
 .pill--ghost:hover { background: var(--ink); color: var(--bg) !important; }
 
@@ -172,7 +172,7 @@ h1, h2, h3, .page__title, .archive__item-title, .author__name { font-family: var
 .page__content .pill { border-bottom: 1px solid var(--ink); }
 .pagination--pager, .page__taxonomy, .page__meta-sep, .page__share, .page__comments { display: none; }
 .page__content .btn--info { background: var(--ink); color: var(--bg) !important; border-radius: 0; padding: 0.6em 1.3em; font-family: var(--mono); font-size: 0.72em; letter-spacing: 0.1em; text-transform: uppercase; border: 1px solid var(--ink); }
-.page__content .btn--info:hover { background: var(--accent); border-color: var(--accent); color: #fff !important; }
+.page__content .btn--info:hover { background: var(--accent); border-color: var(--accent); color: #000 !important; }
 .page__content table { border: 1px solid var(--rule-strong); }
 .page__content th, .page__content td { border-color: var(--rule); }
 .page__content strong { color: var(--ink); }
