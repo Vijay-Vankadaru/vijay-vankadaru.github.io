@@ -2,10 +2,10 @@
 title: "Neuron-level hallucination in medical LLMs"
 excerpt: "Linear probes on hidden activations detect hallucination in medical LLMs at AUROC 0.77 to 0.86, yet steering the same neurons does not reliably change behavior. The project established this detection-control gap across four open-weight models and 36K free-generation answers. Presented at COLM 2026."
 collection: research
+tags: ["Mechanistic interpretability", "Medical LLMs", "Hallucination"]
 subtitle: "UC Berkeley, with Prof. Tanya Roosta. Jan 2026 to present."
 ---
 
-*UC Berkeley, with Prof. Tanya Roosta. Jan 2026 to present.*
 
 **Advisor:** [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), UC Berkeley School of Information. With Asha Matthews and Peyman Passban.
 

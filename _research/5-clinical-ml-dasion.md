@@ -2,10 +2,10 @@
 title: "Clinical ML at DASION"
 excerpt: "Four years of building and shipping clinical ML at an NSF-funded startup: a multimodal depression detection model on interview audio and transcripts (F1 0.87 on DAIC-WOZ), imaging classifiers for lung and cardiac scans, and BERT-based clinical documentation tools, deployed on AWS to partner institutions."
 collection: research
+tags: ["Clinical ML", "Multimodal", "Deployment"]
 subtitle: "Machine Learning Engineer since Jun 2025; ML Engineering Intern Sep 2021 to Jun 2025."
 ---
 
-*Machine Learning Engineer since Jun 2025; ML Engineering Intern Sep 2021 to Jun 2025.*
 
 DASION is a clinical AI startup founded with Prof. Weiqing Gu (Harvey Mudd) and supported by NSF SBIR Phase I and II awards. I joined in 2021 as an intern and have been a Machine Learning Engineer since June 2025.
 

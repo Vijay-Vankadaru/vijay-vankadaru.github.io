@@ -2,11 +2,13 @@
 title: "Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination"
 collection: publications
 category: published
-permalink: /publication/2026-07-24-readable-not-controllable
+permalink: /publication/2026-07-24-readable-not-controllable/
 excerpt: "Linear probes on hidden activations detect hallucination in medical LLMs at AUROC 0.77 to 0.86, yet steering the neurons most associated with hallucination does not reliably change behavior. Detection and control come apart."
 date: 2026-07-24
 venue: "DAIH Workshop, COLM 2026"
-paperurl: "https://arxiv.org/abs/2607.00158"
+status: "Published"
+authors: "<b>V. Vankadaru</b>, A. Matthews, T. Roosta, P. Passban"
+arxivurl: "https://arxiv.org/abs/2607.00158"
 citation: "Vankadaru, V., Matthews, A., Roosta, T., &amp; Passban, P. (2026). Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination. <i>DAIH Workshop, COLM 2026</i>. arXiv:2607.00158."
 ---
 

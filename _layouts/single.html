@@ -36,6 +36,19 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          <p class="pub-meta">{% if page.status %}<span class="badge badge--{{ page.status | slugify }}">{{ page.status }}</span>{% endif %}<span class="pub-venue">{{ page.venue }}</span></p>
+          {% if page.authors %}<p class="pub-authors">{{ page.authors }}</p>{% endif %}
+          {% if page.paperurl or page.arxivurl or page.openreviewurl or page.codeurl %}
+          <p class="pub-links">
+            {% if page.paperurl %}<a class="pill" href="{{ page.paperurl }}">Paper</a>{% endif %}
+            {% if page.arxivurl %}<a class="pill" href="{{ page.arxivurl }}">arXiv</a>{% endif %}
+            {% if page.openreviewurl %}<a class="pill" href="{{ page.openreviewurl }}">OpenReview</a>{% endif %}
+            {% if page.codeurl %}<a class="pill" href="{{ page.codeurl }}">Code</a>{% endif %}
+          </p>
+          {% endif %}
+        {% elsif page.collection == 'research' %}
+          <p class="pub-meta">{% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -47,30 +60,8 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% if page.citation %}
+          <p class="pub-cite">Cite as: {{ page.citation }}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

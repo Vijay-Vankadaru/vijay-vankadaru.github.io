@@ -2,10 +2,12 @@
 title: "A Recipe for Multimodal Multi-Instance Depression Detection: Frozen Teachers, Schedule-Aware Training, and Audio Contribution Diagnostics"
 collection: publications
 category: review
-permalink: /publication/2026-08-01-multimodal-mil-depression
+permalink: /publication/2026-08-01-multimodal-mil-depression/
 excerpt: "A frozen-teacher multimodal multi-instance model for depression detection on DAIC-WOZ (DepRoBERTa text, emotion-finetuned wav2vec2 audio, gated-attention pooling), plus the audio occlusion delta, a diagnostic for whether the audio branch is contributing at all."
 date: 2026-08-01
-venue: "Under review, ACL Rolling Review"
+venue: "ACL Rolling Review"
+status: "Under review"
+authors: "<b>V. Vankadaru</b>"
 citation: "Vankadaru, V. A Recipe for Multimodal Multi-Instance Depression Detection: Frozen Teachers, Schedule-Aware Training, and Audio Contribution Diagnostics. Under review."
 ---
 

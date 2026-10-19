@@ -2,10 +2,12 @@
 title: "Rethinking Medical LLM Hallucinations: A System-Level Survey"
 collection: publications
 category: published
-permalink: /publication/2026-06-01-medical-llm-hallucination-survey
+permalink: /publication/2026-06-01-medical-llm-hallucination-survey/
 excerpt: "Hallucination in medical LLMs is a structural property of probabilistic generation, not a bug to be patched. We survey definitions, benchmarks, detection, and mitigation, and argue that progress depends on treating it as a system-level risk management problem."
 date: 2026-06-01
-venue: "Artificial Intelligence in Medicine (in press)"
+venue: "Artificial Intelligence in Medicine"
+status: "In press"
+authors: "A. Matthews, <b>V. Vankadaru</b>, T. Roosta, P. Passban"
 paperurl: "https://osf.io/cw7zy/files/ngbdv"
 citation: "Matthews, A., Vankadaru, V., Roosta, T., &amp; Passban, P. (2026). Rethinking Medical LLM Hallucinations: A System-Level Survey. <i>Artificial Intelligence in Medicine</i>, in press."
 ---

@@ -1,11 +1,11 @@
 ---
 title: "Representations of somatic mutations for cancer typing"
-excerpt: "Can an interpretable feature table match a neural network that reads individual mutations? We built Bio MAF v4, a 948-feature representation of a tumor's somatic mutations, and benchmarked it against mutational signatures and a from-scratch MuAt transformer on 8,800 TCGA tumors. The feature table won: 0.738 vs 0.528 balanced accuracy."
+excerpt: "A compute-matched test of a question cancer genomics keeps asking: does a model need to read individual mutations, or is the right representation enough? We designed Bio MAF v4, 948 interpretable per-tumor features of mutation consequence, driver genes, hotspots, and allele fraction, rebuilt the MuAt mutation transformer from scratch, and benchmarked both on 8,800 TCGA tumors. The feature table won for cancer typing (0.738 vs 0.528 balanced accuracy) and for HRD prediction (AUROC 0.91 vs 0.75), and transferred to 913 PCAWG tumors."
 collection: research
+tags: ["Cancer genomics", "Representation learning", "Benchmarking"]
 subtitle: "UMSOM, Tensor Lab, with Dr. Bradley A. Maron. Jun 2026 to present."
 ---
 
-*UMSOM, Tensor Lab, with Dr. Bradley A. Maron. Jun 2026 to present.*
 
 **Advisor:** [Dr. Bradley A. Maron](https://www.medschool.umaryland.edu/profiles/maron-bradley/), University of Maryland School of Medicine. With Aaron Ge and Xingyan Liu.
 

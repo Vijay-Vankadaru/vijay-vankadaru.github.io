@@ -2,10 +2,12 @@
 title: "Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making: A Sociodemographic Subgroup Assessment Approach for Open-Source Glioma Molecular Subtype Classifiers"
 collection: publications
 category: review
-permalink: /publication/2026-09-29-glioma-subgroup-bias
-excerpt: "External validation of three open-source glioma molecular subtype classifiers on a 3,380-patient UCSF cohort. AUROC looks stable across subgroups, but sensitivity, specificity, PPV, and NPV vary by age in ways that change the expected clinical benefit."
+permalink: /publication/2026-09-29-glioma-subgroup-bias/
+excerpt: "Before a glioma subtype classifier guides a surgical decision, does it work for every patient the hospital sees? We externally validated three published MRI models on 3,380 UCSF patients, powered the subgroup tests with an LLM labeling pipeline over 9,377 pathology reports, and found age-driven errors that AUROC alone hides: specificity 54% for IDH-wildtype patients under 40 versus 80% at 55 and older."
 date: 2026-09-29
-venue: "In review"
+venue: "UCSF, with the Departments of Neurological Surgery and Radiology"
+status: "In review"
+authors: "E. S. Danthinne, <b>V. Vankadaru</b>, H. Miao, P. Nedelec, A. Rauschecker, R. Morshed, A. Molinaro, M. Sushil"
 citation: "Danthinne, E. S., Vankadaru, V., et al. Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making. In review."
 ---
 

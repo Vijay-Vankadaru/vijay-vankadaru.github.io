@@ -2,10 +2,12 @@
 title: "Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction"
 collection: publications
 category: review
-permalink: /publication/2026-09-15-somatic-mutation-representations
-excerpt: "Can a feature table match a neural network that reads individual mutations? We introduce Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmark it against mutational signatures and a from-scratch MuAt transformer on 8,800 TCGA tumors."
+permalink: /publication/2026-09-15-somatic-mutation-representations/
+excerpt: "Does cancer genomics need custom neural networks, or better features? We introduce Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmark it against mutational signatures and a MuAt transformer trained from scratch on 8,800 TCGA tumors across 20 cancer types. The feature table wins (0.738 vs 0.528 balanced accuracy) and transfers to 913 PCAWG tumors."
 date: 2026-09-15
-venue: "In review"
+venue: "University of Maryland Institute for Health Computing"
+status: "In review"
+authors: "A. Ge, <b>V. Vankadaru</b>, X. Liu, J. Almeida, J. B. Balasubramanian, B. A. Maron"
 citation: "Ge, A., Vankadaru, V., Liu, X., Almeida, J., Balasubramanian, J. B., &amp; Maron, B. A. Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction. In review."
 ---
 

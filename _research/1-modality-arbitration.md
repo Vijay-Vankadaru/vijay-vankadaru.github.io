@@ -2,10 +2,10 @@
 title: "Modality arbitration in vision-language models"
 excerpt: "How does a vision-language model decide whether to trust an image or its own language prior when the two disagree? Using a semantic image pair protocol on CLIP-LLaVA models, activation patching, and logit lens, we showed that models follow whichever input they can discern more reliably, and located where in the network that decision forms. First paper at ECCV 2026 (eXCV); full-length extension under review at ICLR 2027."
 collection: research
+tags: ["Mechanistic interpretability", "Vision-language models"]
 subtitle: "UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present."
 ---
 
-*UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present.*
 
 **Advisor:** [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell), UC Berkeley School of Information.
 

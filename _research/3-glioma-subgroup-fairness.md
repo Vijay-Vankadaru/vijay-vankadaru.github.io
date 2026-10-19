@@ -1,11 +1,11 @@
 ---
 title: "Subgroup fairness of glioma MRI classifiers"
-excerpt: "External validation of three open-source glioma molecular subtype classifiers on a 3,380-patient UCSF cohort. AUROC looks stable across subgroups, but sensitivity and specificity move with age in ways that matter clinically. LLM labeling of 9,377 pathology reports made the subgroup tests possible."
+excerpt: "Published glioma subtype classifiers report AUROC above 0.9 and almost never report who they fail for. We deployed three open-weight MRI models (3D CNN, ViT with ClinicalBERT, CNN with radiomics) on an IRB-approved cohort of 3,380 UCSF patients, built an LLM pipeline that labeled 9,377 pathology reports at F1 0.96 to 0.97 so every subgroup had enough samples to test, and found that errors concentrate by age in a way that would delay urgent surgery for younger patients."
 collection: research
+tags: ["Clinical ML", "Fairness", "Neuro-oncology imaging"]
 subtitle: "UCSF M2AI Lab, with Dr. Madhumita Sushil. Jun 2026 to present."
 ---
 
-*UCSF M2AI Lab, with Dr. Madhumita Sushil. Jun 2026 to present.*
 
 **Advisor:** [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil), UCSF. With Elisa Danthinne and collaborators in neurosurgery and radiology.
 

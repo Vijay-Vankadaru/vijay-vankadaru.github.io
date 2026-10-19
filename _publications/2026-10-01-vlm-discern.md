@@ -2,11 +2,13 @@
 title: "Vision-Language Models Trust What They Can Discern"
 collection: publications
 category: published
-permalink: /publication/2026-10-01-vlm-discern
+permalink: /publication/2026-10-01-vlm-discern/
 excerpt: "When an image and the text prompt disagree, which one does a vision-language model believe? We find that CLIP-LLaVA models follow whichever input they can discern more reliably, and use activation patching and logit lens to locate where that decision is made."
 date: 2026-10-01
 venue: "eXCV Workshop, ECCV 2026"
-paperurl: "https://openreview.net/pdf?id=FbgTPGKH6x"
+status: "Published"
+authors: "<b>V. Vankadaru</b>, V. DuTell"
+openreviewurl: "https://openreview.net/pdf?id=FbgTPGKH6x"
 citation: "Vankadaru, V., &amp; DuTell, V. (2026). Vision-Language Models Trust What They Can Discern. <i>eXCV Workshop, ECCV 2026</i>."
 ---
 
