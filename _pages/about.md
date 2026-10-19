@@ -9,19 +9,9 @@ redirect_from:
 ---
 
 <div class="hero">
-  <div class="hero__eyebrow">Mechanistic interpretability · Clinical ML · UC Berkeley</div>
+  <div class="hero__eyebrow">Mechanistic interpretability / Clinical ML</div>
   <p class="hero__lead">I study why models say things that contradict what they already know, and I test the answers where a confident wrong answer has a cost: <em>medicine</em>.</p>
-  <div class="hero__meta">
-    <span class="chip chip--accent">Applying to PhD programs, Fall 2026</span>
-    <span class="chip chip--teal">MS Data Science, May 2027</span>
-    <span class="chip">UC Berkeley · UCSF · UMSOM</span>
-  </div>
-</div>
-
-<div class="stats">
-  <div class="stat"><b>3</b><span>peer-reviewed papers, two as first author (ECCV 2026, COLM 2026)</span></div>
-  <div class="stat"><b>4</b><span>manuscripts under review, including ICLR 2027</span></div>
-  <div class="stat"><b>4</b><span>research groups: UC Berkeley, UCSF, UMSOM, DASION</span></div>
+  <p class="hero__status"><b>Applying to PhD programs, Fall 2026</b><span>/</span>MS Data Science, UC Berkeley, May 2027<span>/</span>UC Berkeley, UCSF, UMSOM, DASION</p>
 </div>
 
 I am a master's student in data science at UC Berkeley working on mechanistic interpretability of language and vision-language models. The question I keep coming back to: when a model already holds the right information internally, what makes its output contradict it? I will be applying to PhD programs in Fall 2026 for a Fall 2027 start.
@@ -32,33 +22,22 @@ Medicine is where I validate these methods. At the [UCSF M2AI Lab](https://profi
 
 ## Selected papers
 
-<div class="featured">
-  <a class="feat" href="/publication/2026-10-01-vlm-discern/">
-    <span class="feat__venue">ECCV 2026 · eXCV · first author</span>
-    <span class="feat__title">Vision-Language Models Trust What They Can Discern</span>
-    <span class="feat__note">Models follow whichever input they can discern more reliably. Activation patching locates where the decision forms.</span>
-  </a>
-  <a class="feat" href="/publication/2026-07-24-readable-not-controllable/">
-    <span class="feat__venue">COLM 2026 · DAIH · first author</span>
-    <span class="feat__title">Readable but Not Controllable</span>
-    <span class="feat__note">Probes detect hallucination at AUROC 0.77 to 0.86; steering the same neurons does not suppress it.</span>
-  </a>
-  <a class="feat" href="/publication/2026-09-30-believing-is-seeing/">
-    <span class="feat__venue">Under review · ICLR 2027</span>
-    <span class="feat__title">Believing Is Seeing</span>
-    <span class="feat__note">Three LLaVA models, four conflict sources, real photographs, and a trust law that holds across them.</span>
-  </a>
-</div>
+<ul class="papers">
+  <li><div class="venue"><b>ECCV 2026</b>eXCV · first author</div><div><span class="title"><a href="/publication/2026-10-01-vlm-discern/">Vision-Language Models Trust What They Can Discern</a></span><span class="note">Models follow whichever input they can discern more reliably. Activation patching locates where the decision forms.</span></div></li>
+  <li><div class="venue"><b>COLM 2026</b>DAIH · first author</div><div><span class="title"><a href="/publication/2026-07-24-readable-not-controllable/">Readable but Not Controllable</a></span><span class="note">Probes detect hallucination in medical LLMs at AUROC 0.77 to 0.86; steering the same neurons does not suppress it.</span></div></li>
+  <li><div class="venue"><b>ICLR 2027</b>under review</div><div><span class="title"><a href="/publication/2026-09-30-believing-is-seeing/">Believing Is Seeing</a></span><span class="note">Three LLaVA models, four conflict sources, real photographs, and a trust law that holds across them.</span></div></li>
+  <li><div class="venue"><b>AI in Medicine</b>in press</div><div><span class="title"><a href="/publication/2026-06-01-medical-llm-hallucination-survey/">Rethinking Medical LLM Hallucinations</a></span><span class="note">A system-level survey arguing hallucination is a risk to manage, not a bug to patch.</span></div></li>
+</ul>
 
 <p class="quicklinks"><a href="/publications/">All publications</a> &nbsp;/&nbsp; <a href="/research/">Research</a> &nbsp;/&nbsp; <a href="/curriculum-vitae/">CV</a></p>
 
 ## Research interests
 
-<div class="interests">
-  <div class="interest"><b>Mechanistic interpretability</b><span>Activation patching, probing, steering, and the cases where they come apart.</span></div>
-  <div class="interest"><b>Hallucination and cross-modal conflict</b><span>How models weigh evidence against their priors, and whether that decision can be read before the output is written.</span></div>
-  <div class="interest"><b>Clinical ML that holds up</b><span>Evaluation that reflects deployment, subgroup analysis, representations that stay interpretable, detection that is not LLM-as-judge.</span></div>
-</div>
+<ul class="interests-list">
+  <li><div><b>Mechanistic interpretability</b><span>Activation patching, probing, steering, and the cases where they come apart.</span></div></li>
+  <li><div><b>Hallucination and cross-modal conflict</b><span>How models weigh evidence against their priors, and whether that decision can be read before the output is written.</span></div></li>
+  <li><div><b>Clinical ML that holds up</b><span>Evaluation that reflects deployment, subgroup analysis, representations that stay interpretable, detection that is not LLM-as-judge.</span></div></li>
+</ul>
 
 ## News
 
