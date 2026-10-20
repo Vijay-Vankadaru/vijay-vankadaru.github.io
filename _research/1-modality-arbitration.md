@@ -9,10 +9,10 @@ subtitle: "UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present."
 
 **Advisor:** [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell), UC Berkeley School of Information.
 
-**The question.** Every model that combines a learned prior with an input has to decide how much to trust the input. In vision-language models that decision is measurable, it has a mechanism, and it fails in both directions: the model overrides a clear image with its prior, or it follows a corrupted image it should have discounted.
+**Question.** A vision-language model has two sources of evidence for any answer: the image and its language prior. When they disagree, which one wins, and where in the network is that decided?
 
-**What we have found so far.** On CLIP-LLaVA models, trust in the image tracks how well the model can discern the queried property from it. Degrade the image and the prior wins; sharpen it and the image wins. Activation patching and logit lens show the arbitration building up through the middle layers rather than being settled at the input.
+**Findings so far.** On CLIP-LLaVA models, trust in the image tracks how well the model can discern the queried property from it. Degrading the image shifts the answer toward the prior; sharpening it shifts the answer back. Activation patching and logit lens show the decision forming in the middle layers rather than at the input.
 
-**Where it is going.** The follow-on program tests whether that behavior follows a single reliability-weighted law across models, whether the decision can be read from the residual stream before an answer is generated, and whether steering the heads involved can move trust in either direction without breaking the model elsewhere.
+**Next.** Whether the behavior follows one reliability-weighted function across models, whether the decision can be read from the residual stream before an answer is generated, and whether steering the heads involved moves trust in either direction without side effects elsewhere.
 
 **Papers:** [Vision-Language Models Trust What They Can Discern](/publication/2026-10-01-vlm-discern) (ECCV 2026, eXCV); [Believing Is Seeing](/publication/2026-09-30-believing-is-seeing) (under review, ICLR 2027).

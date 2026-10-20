@@ -1,6 +1,6 @@
 ---
 title: "Clinical ML at DASION"
-excerpt: "Four years of building and shipping clinical ML at an NSF-funded startup: a multimodal depression detection model on interview audio and transcripts (F1 0.87 on DAIC-WOZ), imaging classifiers for lung and cardiac scans, and BERT-based clinical documentation tools, deployed on AWS to partner institutions."
+excerpt: "Clinical ML at an NSF-funded startup since 2021: a multimodal depression detection model on interview audio and transcripts (F1 0.87 on DAIC-WOZ), imaging classifiers for lung and cardiac scans, and BERT-based clinical documentation tools, deployed on AWS to partner institutions."
 collection: research
 tags: ["Clinical ML", "Multimodal", "Deployment"]
 subtitle: "Machine Learning Engineer since Jun 2025; ML Engineering Intern Sep 2021 to Jun 2025."

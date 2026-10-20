@@ -3,7 +3,7 @@ title: "Benchmarking Somatic Mutation Representations for Cancer Typing and HRD 
 collection: publications
 category: review
 permalink: /publication/2026-09-15-somatic-mutation-representations/
-excerpt: "Does cancer genomics need custom neural networks, or better features? We introduce Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmark it against mutational signatures and a MuAt transformer trained from scratch on 8,800 TCGA tumors across 20 cancer types. The feature table wins (0.738 vs 0.528 balanced accuracy) and transfers to 913 PCAWG tumors."
+excerpt: "We introduce Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmark it against mutational signatures and a MuAt transformer trained from scratch on 8,800 TCGA tumors across 20 cancer types. The feature table outperforms the transformer (0.738 vs 0.528 balanced accuracy) and transfers to 913 PCAWG tumors."
 date: 2026-09-15
 venue: "University of Maryland Institute for Health Computing"
 status: "In review"

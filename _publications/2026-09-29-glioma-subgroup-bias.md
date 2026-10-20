@@ -3,7 +3,7 @@ title: "Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Makin
 collection: publications
 category: review
 permalink: /publication/2026-09-29-glioma-subgroup-bias/
-excerpt: "Before a glioma subtype classifier guides a surgical decision, does it work for every patient the hospital sees? We externally validated three published MRI models on 3,380 UCSF patients, powered the subgroup tests with an LLM labeling pipeline over 9,377 pathology reports, and found age-driven errors that AUROC alone hides: specificity 54% for IDH-wildtype patients under 40 versus 80% at 55 and older."
+excerpt: "External validation of three published glioma subtype classifiers on 3,380 UCSF patients, with subgroup tests powered by an LLM labeling pipeline over 9,377 pathology reports. Errors concentrate by age: specificity 54% for IDH-wildtype patients under 40 versus 80% at 55 and older, a difference AUROC does not show."
 date: 2026-09-29
 venue: "UCSF, with the Departments of Neurological Surgery and Radiology"
 status: "In review"

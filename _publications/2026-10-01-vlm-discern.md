@@ -3,7 +3,7 @@ title: "Vision-Language Models Trust What They Can Discern"
 collection: publications
 category: published
 permalink: /publication/2026-10-01-vlm-discern/
-excerpt: "When an image and the text prompt disagree, which one does a vision-language model believe? We find that CLIP-LLaVA models follow whichever input they can discern more reliably, and use activation patching and logit lens to locate where that decision is made."
+excerpt: "When an image and the text prompt disagree, CLIP-LLaVA models follow the input they can discern more reliably. Activation patching and logit lens locate where that decision is made."
 date: 2026-10-01
 venue: "eXCV Workshop, ECCV 2026"
 status: "Published"
