@@ -11,10 +11,10 @@ redirect_from:
 <div class="hero">
   <div class="hero__eyebrow">Mechanistic interpretability / Clinical ML</div>
   <p class="hero__lead">I study why models say things that contradict what they already know, and I test the answers where a confident wrong answer has a cost: <em>medicine</em>.</p>
-  <p class="hero__status"><b>Applying to PhD programs, Fall 2026</b><span>/</span>MS Data Science, UC Berkeley, May 2027<span>/</span>UC Berkeley, UCSF, UMSOM, DASION</p>
+  <p class="hero__status"><b>Applying to PhD programs for Fall 2027</b><span>/</span>MS Data Science, UC Berkeley, May 2027<span>/</span>UC Berkeley, UCSF, UMSOM, DASION</p>
 </div>
 
-I am a master's student in data science at UC Berkeley working on mechanistic interpretability of language and vision-language models. The question I keep coming back to: when a model already holds the right information internally, what makes its output contradict it? I will be applying to PhD programs in Fall 2026 for a Fall 2027 start.
+I am a master's student in data science at UC Berkeley working on mechanistic interpretability of language and vision-language models. The question I keep coming back to: when a model already holds the right information internally, what makes its output contradict it? I am applying to PhD programs this cycle for a Fall 2027 start.
 
 My interpretability work runs on two threads. With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell), I study how vision-language models arbitrate between an image and text that contradicts it, using activation patching and logit lens to find where the decision is made. With [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), I led a neuron-level study of hallucination in medical LLMs that found a gap between reading a model's state and steering it: linear probes on hidden activations detect hallucination reliably, yet intervening on the same neurons does not suppress it.
 
