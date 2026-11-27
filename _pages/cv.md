@@ -17,44 +17,54 @@ redirect_from:
 **University of California, Berkeley**, Master of Data Science, Machine Learning emphasis. GPA 4.0. Expected May 2027.
 Coursework: NLP with Deep Learning, Computer Vision, Applied Machine Learning, Causal Inference, Data Engineering, Statistics.
 
-**University of California, Riverside**, B.S. Computer Science. Jun 2025.
+**University of California, Riverside**, Bachelor of Science in Computer Science. Jun 2025.
 
 ## Publications
 
-1. **V. Vankadaru**, V. DuTell. Believing Is Seeing: How Vision-Language Models Decide to Believe an Image. Under review at CVPR '27. [PDF](/believing-is-seeing/)
-2. **V. Vankadaru**, V. DuTell. Vision-Language Models Trust What They Can Discern. *eXCV @ ECCV '26.*
-3. **V. Vankadaru**, A. Matthews, T. Roosta, P. Passban. Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination. *DAIH @ COLM '26.* [arXiv:2607.00158](https://arxiv.org/abs/2607.00158)
-4. A. Matthews, **V. Vankadaru**, T. Roosta, P. Passban. Rethinking Medical LLM Hallucinations: A System-Level Survey. *Intelligence-Based Medicine*, to appear.
-5. E. S. Danthinne, **V. Vankadaru**, et al. Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making: A Sociodemographic Subgroup Assessment Approach for Open-Source Glioma Molecular Subtype Classifiers. Under review.
-6. A. Ge, **V. Vankadaru**, X. Liu, et al. Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction. Under review.
-7. **V. Vankadaru**. A Recipe for Multimodal Multi-Instance Depression Detection: Frozen Teachers, Schedule-Aware Training, and Audio Contribution Diagnostics. Under review, ACL Rolling Review.
+1. **V. Vankadaru**, V. DuTell. Vision-Language Models Trust What They Can Discern: Image and Representational Properties Governing Modality Arbitration. *eXCV @ ECCV '26 (Proceedings Track; Springer, in press).* [Paper](https://openreview.net/pdf?id=FbgTPGKH6x), [poster](/files/posters/vankadaru-excv-eccv26-poster.pdf).
+2. **V. Vankadaru**, A. Matthews, T. Roosta, P. Passban. Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination. *DAIH @ COLM '26.* [arXiv:2607.00158](https://arxiv.org/abs/2607.00158), [poster](/files/posters/vankadaru-daih-colm26-poster.pdf).
+3. **V. Vankadaru**, V. DuTell. Believing Is Seeing: How Vision-Language Models Decide to Believe an Image. Under review at CVPR '27. [PDF](/believing-is-seeing/).
+4. E. S. Danthinne, **V. Vankadaru**, et al. Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making: A Sociodemographic Subgroup Assessment Approach for Open-Source Glioma Molecular Subtype Classifiers. Under review. [Poster](/files/posters/danthinne-vankadaru-glioma-subgroup-poster.pdf).
+5. A. Ge, **V. Vankadaru**, X. Liu, et al. Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction. Under review.
+6. A. Matthews, **V. Vankadaru**, T. Roosta, P. Passban. Rethinking Medical LLM Hallucinations: A System-Level Survey. *Intelligence-Based Medicine*, accepted.
 
 ## Research Experience
 
-**Graduate Researcher, UC Berkeley**. *With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell). Apr 2026 to present.*
-- I study how vision-language models choose between an image and a prior that contradicts it. The first paper showed on one model that trust in the image tracks how discernible the conflicting evidence is (first author, eXCV @ ECCV '26).
-- The second paper tests this across eleven models from eight architectures and locates the shared mid-depth pathway that carries the image's evidence to the answer (first author, under review at CVPR '27).
+**Graduate Researcher, UC Berkeley**. *Advisor: [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell). Apr 2026 to present.*
+- Studied when a vision-language model believes an image over what it expects to see. It trusts the image only when it can clearly discern the contradicting object, and that choice can be read inside the model before it answers. First author, eXCV @ ECCV '26.
+- Extended this to eleven open models across eight architectures and to GPT, Claude and Gemini. All eleven make the choice through the same internal pathway, and it is far easier to make a model ignore an image than believe it. First author, under review at CVPR '27.
 
-**Graduate Researcher, UC Berkeley**. *With [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta). Jan 2026 to present.*
-- I led a neuron-level study of hallucination in medical LLMs. Linear probes on hidden activations detect hallucination (AUROC 0.77 to 0.86), but steering the same neurons does not reliably change the output (first author, DAIH @ COLM '26).
-- Co-wrote a survey of hallucination in medical LLMs (*Intelligence-Based Medicine*, to appear).
+**Graduate Researcher, UC Berkeley**. *Advisor: [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta). Jan 2026 to present.*
+- Led a neuron-level study of hallucination in four medical LLMs. Linear probes detect it at AUROC 0.77 to 0.86, but the signal is spread across hundreds of neurons and steering it does no better than random neurons in 16 settings. First author, DAIH @ COLM '26.
+- Wrote the interpretability and system-level sections of a survey on medical LLM hallucination. Accepted at *Intelligence-Based Medicine*.
 
-**Machine Learning Research Fellow, M2AI Lab, UCSF**. *With [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil). Jun 2026 to present.*
-- Tested three published glioma MRI classifiers on 3,380 patients from a new hospital. Overall scores look stable across patient groups, but the models make more errors on younger patients.
-- Built an LLM pipeline that reads pathology reports, so that every patient group had enough labels to test.
+**Graduate Researcher, UC Berkeley**. *Advisor: [Dr. Cornelia Paulik](https://corneliailin.github.io). Sep 2025 to Jan 2026.*
+- Built the retrieval corpus for a pediatric medical question-answering system and contributed to its model evaluations and literature review.
 
-**Machine Learning Research Fellow, The Tensor Lab, University of Maryland School of Medicine (UMSOM)**. *Jun 2026 to present.*
-- Designed Bio MAF v4, an interpretable representation of a tumor's somatic mutations. On 8,800 tumors it identified cancer type more accurately than a mutation transformer trained from scratch under the same compute budget.
-- I work there with Aaron Ge, Xingyan Liu, and [Dr. Bradley A. Maron](https://www.medschool.umaryland.edu/profiles/maron-bradley/).
+**Machine Learning Research Fellow, M2AI Lab, UCSF**. *Advisor: [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil). Jun 2026 to present.*
+- Externally validated three open-source MRI classifiers (3D CNN, ViT with ClinicalBERT, CNN with radiomics) on a 3,380-patient cohort and showed that errors AUROC hides are driven by age: specificity 54% for patients under 40 vs 80% for 55 and older.
+- Scaled ground-truth labels from 442 to 3,380 patients with an LLM extraction pipeline over 9,377 pathology reports (F1 0.96 to 0.97).
+
+**Machine Learning Research Fellow, The Tensor Lab, University of Maryland School of Medicine (UMSOM)**. *With [Dr. Bradley A. Maron](https://www.medschool.umaryland.edu/profiles/maron-bradley/). Jun 2026 to present.*
+- Designed Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmarked it against mutational signatures and a from-scratch MuAt transformer on 8,800 TCGA tumors across 20 cancer types and 913 held-out PCAWG tumors.
+- Its features with XGBoost beat the transformer on cancer typing (0.74 vs 0.53 balanced accuracy) and HRD status (AUROC 0.91 vs 0.75).
 
 ## Industry Experience
 
-**Machine Learning Engineer, DASION**. *Sep 2023 to present.*
-- Built a depression detection model that uses clinical interview audio and transcripts, and reports how much each modality contributed. Written up as a solo-author paper, under review.
-- Deployed models as AWS inference endpoints for partner institutions.
+**Machine Learning Engineer, DASION** (clinical AI startup, NSF SBIR Phase I and II). *Claremont, CA. Sep 2023 to present.*
+- Built a multimodal depression detection model on clinical interview audio and transcripts in PyTorch (wav2vec2 and RoBERTa encoders, gated-attention multi-instance pooling), reaching F1 0.87 on DAIC-WOZ with occlusion diagnostics for per-modality attribution.
+- Fine-tuned BERT for clinical documentation classification and deployed models as AWS inference endpoints serving 5+ institutions.
 
-**Machine Learning Engineering Intern, DASION**. *Sep 2021 to Sep 2023.*
-- Trained imaging classifiers for lung and cardiac scans and a BERT model for clinical documentation.
+**Machine Learning Engineering Intern, DASION**. *Claremont, CA. Jun 2021 to Sep 2023.*
+- Trained ResNet50 transfer-learning classifiers in PyTorch for lung and cardiac imaging (93% diagnostic accuracy, k-fold CV, SHAP).
+- Built a bidirectional LSTM with attention over MFCC and prosodic features for voice-based depression screening (85% accuracy).
+
+## Honors
+
+- Merit Scholarship and Professional Development Award, UC Berkeley
+- First place, Rose Hack. Most Innovative, Cutie Hack.
+- Travel grants: UC Berkeley (ECCV '26), DAIH @ COLM '26
+- Presenter, DAIH @ COLM '26. Lead fellow presenter, The Tensor Lab.
 
 ## Service
 
@@ -64,7 +74,7 @@ Coursework: NLP with Deep Learning, Computer Vision, Applied Machine Learning, C
 
 ## Training
 
-BlueDot Impact, Technical AI Safety course, 2026.
+BlueDot AI Safety course.
 
 ## Skills
 

@@ -8,6 +8,8 @@ date: 2026-09-30
 venue: "CVPR '27"
 status: "Under review"
 authors: "<b>V. Vankadaru</b>, V. DuTell"
+# When the code repo is public, add:
+#   codeurl: "https://github.com/..."
 # When the arXiv link is live: delete the paperurl and paperlabel lines and add
 #   arxivurl: "https://arxiv.org/abs/XXXX.XXXXX"
 # The short link /believing-is-seeing/ follows whichever is set.
@@ -28,7 +30,7 @@ We find four things:
 
 Prior override happens on the model's ordinary pathway for reading images. A correction has to act on that pathway, not on the input image.
 
-This paper follows [Vision-Language Models Trust What They Can Discern](/publication/2026-10-01-vlm-discern/), which showed on one model that trust in the image tracks how discernible the conflicting evidence is. Here we test that across architectures and locate the mechanism.
+This paper follows [Vision-Language Models Trust What They Can Discern: Image and Representational Properties Governing Modality Arbitration](/publication/2026-10-01-vlm-discern/), which showed on one model that trust in the image tracks how discernible the conflicting evidence is. Here we test that across architectures and locate the mechanism.
 
 ## BibTeX
 

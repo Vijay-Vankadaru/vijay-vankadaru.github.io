@@ -69,7 +69,7 @@
       {% endif %}
     {% elsif post.collection == 'research' %}
       {% if post.figure %}<p class="pub-figure"><img src="{{ post.figure }}" alt="Main figure for {{ post.title | escape }}"></p>{% endif %}
-      {% if post.links %}<p class="pub-links">{% for l in post.links %}<a class="pill{% unless forloop.first %} pill--ghost{% endunless %}" href="{{ l.url }}">{{ l.label }}</a> {% endfor %}{% if post.posterurl %}<a class="pill pill--ghost" href="{{ post.posterurl }}">Poster</a>{% endif %}</p>{% endif %}
+      {% if post.links %}<p class="pub-links">{% for l in post.links %}<a class="pill{% unless forloop.first %} pill--ghost{% endunless %}" href="{{ l.url }}">{{ l.label }}</a> {% endfor %}{% if post.codeurl %}<a class="pill pill--ghost" href="{{ post.codeurl }}">Code</a> {% endif %}{% if post.posterurl %}<a class="pill pill--ghost" href="{{ post.posterurl }}">Poster</a>{% endif %}</p>{% endif %}
     {% endif %}
 
   </article>

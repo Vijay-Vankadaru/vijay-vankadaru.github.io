@@ -13,6 +13,8 @@ links:
     url: "/publication/2026-10-01-vlm-discern/"
   - label: "OpenReview"
     url: "https://openreview.net/pdf?id=FbgTPGKH6x"
+# When the code repo is public, add:
+#   codeurl: "https://github.com/..."
 posterurl: "/files/posters/vankadaru-excv-eccv26-poster.pdf"
 posterimg: "/images/posters/excv-eccv26.jpg"
 ---
@@ -26,4 +28,4 @@ The first paper showed on one model that trust in the image tracks how discernib
 **Papers**
 
 - [Believing Is Seeing: How Vision-Language Models Decide to Believe an Image](/publication/2026-09-30-believing-is-seeing/). Under review at CVPR '27.
-- [Vision-Language Models Trust What They Can Discern](/publication/2026-10-01-vlm-discern/). eXCV @ ECCV '26.
+- [Vision-Language Models Trust What They Can Discern: Image and Representational Properties Governing Modality Arbitration](/publication/2026-10-01-vlm-discern/). eXCV @ ECCV '26 (Proceedings Track; Springer, in press).

@@ -9,8 +9,10 @@ links:
     url: "/publication/2026-07-24-readable-not-controllable/"
   - label: "arXiv"
     url: "https://arxiv.org/abs/2607.00158"
-  - label: "Survey (Intelligence-Based Medicine, to appear)"
+  - label: "Survey (Intelligence-Based Medicine, accepted)"
     url: "/publication/2026-06-01-medical-llm-hallucination-survey/"
+# When the code repo is public, add:
+#   codeurl: "https://github.com/..."
 posterurl: "/files/posters/vankadaru-daih-colm26-poster.pdf"
 posterimg: "/images/posters/daih-colm26.jpg"
 ---
@@ -24,4 +26,4 @@ The follow-up asks whether a hallucination signal inside the model can be used t
 **Papers**
 
 - [Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination](/publication/2026-07-24-readable-not-controllable/). DAIH @ COLM '26.
-- [Rethinking Medical LLM Hallucinations: A System-Level Survey](/publication/2026-06-01-medical-llm-hallucination-survey/). Intelligence-Based Medicine, to appear.
+- [Rethinking Medical LLM Hallucinations: A System-Level Survey](/publication/2026-06-01-medical-llm-hallucination-survey/). Intelligence-Based Medicine, accepted.

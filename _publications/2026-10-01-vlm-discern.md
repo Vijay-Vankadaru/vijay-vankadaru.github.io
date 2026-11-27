@@ -1,11 +1,13 @@
 ---
-title: "Vision-Language Models Trust What They Can Discern"
+title: "Vision-Language Models Trust What They Can Discern: Image and Representational Properties Governing Modality Arbitration"
 collection: publications
 category: published
 permalink: /publication/2026-10-01-vlm-discern/
 excerpt: "When an image and a model's prior disagree, which one does the model follow? On one vision-language model, we show that trust in the image tracks how discernible the conflicting evidence is."
 date: 2026-10-01
-venue: "eXCV @ ECCV '26"
+venue: "eXCV @ ECCV '26 (Proceedings Track; Springer, in press)"
+# When the code repo is public, add:
+#   codeurl: "https://github.com/..."
 status: "Published"
 authors: "<b>V. Vankadaru</b>, V. DuTell"
 openreviewurl: "https://openreview.net/pdf?id=FbgTPGKH6x"
@@ -23,9 +25,11 @@ The follow-up paper, [Believing Is Seeing](/publication/2026-09-30-believing-is-
 
 ```bibtex
 @inproceedings{vankadaru2026discern,
-  title     = {Vision-Language Models Trust What They Can Discern},
+  title     = {Vision-Language Models Trust What They Can Discern: Image and Representational Properties Governing Modality Arbitration},
   author    = {Vankadaru, Vijay and DuTell, Vasha},
-  booktitle = {eXCV Workshop at ECCV},
-  year      = {2026}
+  booktitle = {ECCV 2026 Workshops (eXCV, Proceedings Track)},
+  publisher = {Springer},
+  year      = {2026},
+  note      = {In press}
 }
 ```
