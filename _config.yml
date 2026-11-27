@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Vijay Vankadaru"
 title_separator          : "-"
 name                     : &name "Vijay Vankadaru"
-description              : &description "ML researcher working on mechanistic interpretability of language and vision-language models. MS Data Science at UC Berkeley."
+description              : "I study how language and vision-language models decide what information to trust, and whether that decision can be read and changed from their internals."
 url                      : https://vijay-vankadaru.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Vijay-Vankadaru/vijay-vankadaru.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Vijay Vankadaru"
   pronouns         : # example: "she/her"  
-  bio              : "MS Data Science, UC Berkeley<br/>Mechanistic interpretability of LLMs and VLMs<br/>Machine Learning Engineer, DASION"
+  bio              : "MS Data Science, UC Berkeley<br/>Interpretability of language and vision-language models<br/>Machine Learning Engineer, DASION"
   employer         : 
   uri              : # URL
   email            : "vankadaruvijay@berkeley.edu" 
@@ -90,9 +90,9 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   published:
-    title: 'Peer-Reviewed Publications'
+    title: 'Published and to appear'
   review:
-    title: 'Under Review and In Preparation'
+    title: 'Under review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

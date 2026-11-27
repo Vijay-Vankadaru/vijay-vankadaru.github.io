@@ -3,17 +3,31 @@ title: "Rethinking Medical LLM Hallucinations: A System-Level Survey"
 collection: publications
 category: published
 permalink: /publication/2026-06-01-medical-llm-hallucination-survey/
-excerpt: "A survey of hallucination in medical LLMs covering definitions, benchmarks, detection, and mitigation. It argues that hallucination is a structural property of probabilistic generation and should be treated as a system-level risk management problem."
+excerpt: "A survey of hallucination in medical LLMs: definitions, benchmarks, detection, and mitigation. We argue that hallucination comes from how these models generate text and has to be managed at the level of the whole system."
 date: 2026-06-01
-venue: "Artificial Intelligence in Medicine"
-status: "In press"
+venue: "Intelligence-Based Medicine"
+status: "To appear"
 authors: "A. Matthews, <b>V. Vankadaru</b>, T. Roosta, P. Passban"
 paperurl: "https://osf.io/cw7zy/files/ngbdv"
-citation: "Matthews, A., Vankadaru, V., Roosta, T., &amp; Passban, P. (2026). Rethinking Medical LLM Hallucinations: A System-Level Survey. <i>Artificial Intelligence in Medicine</i>, in press."
+paperlabel: "Preprint"
 ---
 
-With Asha Matthews, [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), and Peyman Passban.
+With Asha Matthews, [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), and Peyman Passban. Accepted at *Intelligence-Based Medicine*, to appear.
 
-Most prior work treats hallucination as an isolated model failure to be fixed through training, prompting, or retrieval. This survey treats hallucination as a structural property of how probabilistic language models generate text. In medicine, the errors that matter most are the ones that are nearly correct, because they pass surface checks. We synthesize work on definitions, taxonomies, benchmarks, detection methods, and mitigation strategies, and look at how those pieces interact inside real clinical workflows. Improvements to individual components rarely translate into reliable end-to-end systems.
+Most prior work treats hallucination as a model failure to be fixed through training, prompting, or retrieval. We treat it as a property of how language models generate text. In medicine, the errors that matter most are the ones that are nearly correct, because they pass surface checks.
 
-The survey also named a gap that became the next project: almost no interpretability work had been done on medical LLMs specifically. *Readable but Not Controllable* is the empirical follow-up.
+We review definitions, benchmarks, detection methods, and mitigation strategies, and look at how they interact inside clinical workflows. Improving one component rarely gives a reliable system end to end.
+
+The survey also pointed to a gap: little interpretability work had been done on medical LLMs. [Readable but Not Controllable](/publication/2026-07-24-readable-not-controllable/) is our follow-up.
+
+## BibTeX
+
+```bibtex
+@article{matthews2026rethinking,
+  title   = {Rethinking Medical LLM Hallucinations: A System-Level Survey},
+  author  = {Matthews, Asha and Vankadaru, Vijay and Roosta, Tanya and Passban, Peyman},
+  journal = {Intelligence-Based Medicine},
+  year    = {2026},
+  note    = {To appear}
+}
+```

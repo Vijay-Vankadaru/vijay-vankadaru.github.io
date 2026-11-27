@@ -1,18 +1,20 @@
 ---
-title: "Subgroup fairness of glioma MRI classifiers"
-excerpt: "External validation of three published glioma subtype classifiers (3D CNN, ViT with ClinicalBERT, CNN with radiomics) on an IRB-approved cohort of 3,380 UCSF patients. An LLM pipeline labeled 9,377 pathology reports at F1 0.96 to 0.97, giving every subgroup enough samples to test. Errors concentrate by age: specificity for IDH-wildtype patients under 40 is 54%, against 80% at 55 and older."
+title: "Do glioma MRI classifiers work equally well across patients?"
+excerpt: "Published MRI models for glioma subtype report high overall scores and rarely report results by patient group. We tested three of them on 3,380 patients from a new hospital. Overall scores look stable across groups, but the models make more errors on younger patients."
 collection: research
-tags: ["Clinical ML", "Fairness", "Neuro-oncology imaging"]
-subtitle: "UCSF M2AI Lab, with Dr. Madhumita Sushil. Jun 2026 to present."
+tags: ["Clinical ML", "Evaluation", "Neuro-oncology imaging"]
+subtitle: "Machine Learning Research Fellow, M2AI Lab, UCSF. Jun 2026 to present."
+links:
+  - label: "Manuscript (under review)"
+    url: "/publication/2026-09-29-glioma-subgroup-bias/"
 ---
 
+I am a Machine Learning Research Fellow in the M2AI Lab at UCSF, working with [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil), Elisa Danthinne, and collaborators in neurosurgery and radiology.
 
-**Advisor:** [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil), UCSF. With Elisa Danthinne and collaborators in neurosurgery and radiology.
+Published MRI models that predict glioma molecular subtype report high overall scores, and few report results by patient group. We ran three published models on 3,380 UCSF patients they had not seen, using an LLM to read pathology reports so that each patient group had enough labels to test.
 
-**Question.** Published MRI models for glioma subtype report AUROC above 0.9, and almost none report performance by patient subgroup. Does the performance hold across the patient population of a single institution?
+Overall scores were similar across race, sex, and insurance. The errors were concentrated by age: the models were less specific for younger patients, the group where a wrong prediction could delay surgery. An overall score did not show this.
 
-**Method.** Deployed three open-weight models (a multi-task 3D CNN, a ViT with a ClinicalBERT branch, and a CNN plus radiomics model) on an unseen UCSF cohort, reproducing each model's published preprocessing. Ground-truth labels for 9,377 pathology reports came from an LLM extraction pipeline validated against human labels, which grew the cohort from 442 to 3,380 patients and gave every subgroup enough samples to test. Subgroup comparisons use bootstrap confidence intervals, permutation tests, and Benjamini-Hochberg correction.
+**Paper**
 
-**Findings.** All three models underperform their published numbers. AUROC is stable across race, sex, and insurance, but specificity for IDH-wildtype patients under 40 is 54% against 80% for patients 55 and older. A false IDH-mutant prediction in that group would delay surgery.
-
-**Paper:** [in review](/publication/2026-09-29-glioma-subgroup-bias).
+- [Potential for Age-Based Bias in AI-Informed Neurosurgical Decision-Making](/publication/2026-09-29-glioma-subgroup-bias/). Under review.

@@ -1,18 +1,25 @@
 ---
-title: "Modality arbitration in vision-language models"
-excerpt: "How does a vision-language model decide whether to trust an image or its own language prior when the two disagree? Using a semantic image pair protocol on CLIP-LLaVA models, activation patching, and logit lens, we showed that models follow whichever input they can discern more reliably, and located where in the network that decision forms. First paper at ECCV 2026 (eXCV); full-length extension under review at ICLR 2027."
+title: "How vision-language models decide to believe an image"
+excerpt: "When an image contradicts what a vision-language model expects, which one does it follow, and where in the network is that decided? Across eleven models from eight architectures, the deciding evidence sits in the object that contradicts the prior and reaches the answer through the same mid-depth pathway in every model. Removing that evidence is far easier than restoring it."
 collection: research
-tags: ["Mechanistic interpretability", "Vision-language models"]
+tags: ["Interpretability", "Vision-language models"]
 subtitle: "UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present."
+links:
+  - label: "Believing Is Seeing (CVPR '27, under review)"
+    url: "/publication/2026-09-30-believing-is-seeing/"
+  - label: "Trust What They Can Discern (eXCV @ ECCV '26)"
+    url: "/publication/2026-10-01-vlm-discern/"
+  - label: "OpenReview"
+    url: "https://openreview.net/pdf?id=FbgTPGKH6x"
 ---
 
+With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell) at UC Berkeley.
 
-**Advisor:** [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell), UC Berkeley School of Information.
+A vision-language model has two sources for an answer: the image, and what it expects to see. When they disagree, the model often answers from its expectation, and the answer reads just as fluently, so a user cannot tell the image was set aside. I study what the model weighs in that choice and where in the network the choice is made.
 
-**Question.** A vision-language model has two sources of evidence for any answer: the image and its language prior. When they disagree, which one wins, and where in the network is that decided?
+The first paper showed on one model that trust in the image tracks how discernible the conflicting evidence is. The second tests this across eleven models from eight architectures. The deciding evidence sits in the object that contradicts the prior, and it reaches the answer through the same mid-depth pathway in every model, where a few attention heads write it in. Removing that evidence is far easier than restoring it, so a correction has to act on that pathway and not on the input image.
 
-**Findings so far.** On CLIP-LLaVA models, trust in the image tracks how well the model can discern the queried property from it. Degrading the image shifts the answer toward the prior; sharpening it shifts the answer back. Activation patching and logit lens show the decision forming in the middle layers rather than at the input.
+**Papers**
 
-**Next.** Whether the behavior follows one reliability-weighted function across models, whether the decision can be read from the residual stream before an answer is generated, and whether steering the heads involved moves trust in either direction without side effects elsewhere.
-
-**Papers:** [Vision-Language Models Trust What They Can Discern](/publication/2026-10-01-vlm-discern) (ECCV 2026, eXCV); [Believing Is Seeing](/publication/2026-09-30-believing-is-seeing) (under review, ICLR 2027).
+- [Believing Is Seeing: How Vision-Language Models Decide to Believe an Image](/publication/2026-09-30-believing-is-seeing/). Under review at CVPR '27.
+- [Vision-Language Models Trust What They Can Discern](/publication/2026-10-01-vlm-discern/). eXCV @ ECCV '26.

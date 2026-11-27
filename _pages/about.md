@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Vijay Vankadaru"
-excerpt: "ML researcher, mechanistic interpretability"
+excerpt: "I study how language and vision-language models decide what information to trust, and whether that decision can be read and changed from their internals."
 author_profile: true
 redirect_from:
   - /about/
@@ -9,24 +9,21 @@ redirect_from:
 ---
 
 <div class="hero">
-  <div class="hero__eyebrow">Mechanistic interpretability / Clinical ML</div>
-  <p class="hero__lead">I study mechanistic interpretability: how trust inside a model can be read and manipulated, and how those findings hold up in medical settings.</p>
-  <p class="hero__status"><b>Applying to PhD programs for Fall 2027</b><span>/</span>MS Data Science, UC Berkeley, May 2027<span>/</span>UC Berkeley, UCSF, UMSOM, DASION</p>
+  <p class="hero__lead">I study how language and vision-language models decide what information to trust, and whether that decision can be read and changed from their internals. I test this in medicine, on medical language models and clinical data.</p>
+  <p class="hero__links"><a class="pill" href="/files/Vijay_Vankadaru_CV.pdf">CV (PDF)</a> <a class="pill pill--ghost" href="/publications/">Publications</a> <a class="pill pill--ghost" href="https://scholar.google.com/citations?user=YPu-3Y0AAAAJ&hl=en">Google Scholar</a> <a class="pill pill--ghost" href="mailto:vankadaruvijay@berkeley.edu">Email</a></p>
 </div>
 
-I am a master's student in data science at UC Berkeley. My research is on mechanistic interpretability of language and vision-language models: when a model has the right information internally, what determines whether its output uses it. I am applying to PhD programs this cycle for a Fall 2027 start.
+I am a master's student in data science at UC Berkeley (GPA 4.0). At Berkeley I work with [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell) on vision-language models and with [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta) on medical language models. I am also a Machine Learning Research Fellow at the [UCSF M2AI Lab](/research/3-glioma-subgroup-fairness/) and at [The Tensor Lab](/research/4-somatic-mutation-representations/) at the University of Maryland School of Medicine (UMSOM), and a machine learning engineer at DASION.
 
-Two projects make up the interpretability work. With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell), I study how vision-language models weigh an image against text that contradicts it, using activation patching and logit lens to locate where that decision is made (ECCV 2026; extension under review at ICLR 2027). With [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), I led a neuron-level study of hallucination in medical LLMs: linear probes on hidden activations detect hallucination reliably, but steering the same neurons does not suppress it (COLM 2026).
-
-The medical work is both empirical and representational. At the [UCSF M2AI Lab](https://profiles.ucsf.edu/madhumita.sushil), I externally validated three published glioma MRI classifiers on 3,380 patients and found age-dependent errors that AUROC does not show, using an LLM pipeline that labeled 9,377 pathology reports to make the subgroup tests possible. At the [University of Maryland School of Medicine](https://www.medschool.umaryland.edu/profiles/maron-bradley/), I designed Bio MAF v4, an interpretable representation of a tumor's somatic mutations, and showed in a compute-matched benchmark that it outperforms a mutation transformer trained from scratch for cancer typing. At DASION, a clinical AI startup, I have built and deployed ML systems since 2021, including a multimodal depression detection model that is now a solo-author paper under review.
+I am applying to PhD programs for Fall 2027.
 
 ## Selected papers
 
 <ul class="papers">
-  <li><div class="venue"><b>ECCV 2026</b>eXCV · first author</div><div><span class="title"><a href="/publication/2026-10-01-vlm-discern/">Vision-Language Models Trust What They Can Discern</a></span><span class="note">Models follow the input they can discern more reliably. Activation patching locates where the decision is made.</span></div></li>
-  <li><div class="venue"><b>COLM 2026</b>DAIH · first author</div><div><span class="title"><a href="/publication/2026-07-24-readable-not-controllable/">Readable but Not Controllable</a></span><span class="note">Probes detect hallucination in medical LLMs at AUROC 0.77 to 0.86; steering the same neurons does not suppress it.</span></div></li>
-  <li><div class="venue"><b>ICLR 2027</b>under review</div><div><span class="title"><a href="/publication/2026-09-30-believing-is-seeing/">Believing Is Seeing</a></span><span class="note">Three LLaVA models, four conflict types, and an evaluation on real photographs.</span></div></li>
-  <li><div class="venue"><b>AI in Medicine</b>in press</div><div><span class="title"><a href="/publication/2026-06-01-medical-llm-hallucination-survey/">Rethinking Medical LLM Hallucinations</a></span><span class="note">A system-level survey of hallucination in medical LLMs: definitions, benchmarks, detection, and mitigation.</span></div></li>
+  <li><div class="venue"><b>CVPR '27</b> <span>Under review</span> <span>First author</span></div><div><span class="title"><a href="/publication/2026-09-30-believing-is-seeing/">Believing Is Seeing: How Vision-Language Models Decide to Believe an Image</a></span><span class="note">Across eleven vision-language models, the choice to believe an image over a prior runs through one shared pathway, and removing the image's evidence is far easier than restoring it.</span><span class="links"><a href="/publication/2026-09-30-believing-is-seeing/">Summary</a></span></div></li>
+  <li><div class="venue"><b>eXCV @ ECCV '26</b> <span>First author</span></div><div><span class="title"><a href="/publication/2026-10-01-vlm-discern/">Vision-Language Models Trust What They Can Discern</a></span><span class="note">On one model, trust in the image tracks how discernible the conflicting evidence is.</span><span class="links"><a href="https://openreview.net/pdf?id=FbgTPGKH6x">PDF (OpenReview)</a></span></div></li>
+  <li><div class="venue"><b>DAIH @ COLM '26</b> <span>First author</span></div><div><span class="title"><a href="/publication/2026-07-24-readable-not-controllable/">Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination</a></span><span class="note">Probes on hidden activations detect hallucination in medical LLMs, but steering the same neurons does not reliably change the output.</span><span class="links"><a href="https://arxiv.org/abs/2607.00158">arXiv</a></span></div></li>
+  <li><div class="venue"><b>Intelligence-Based Medicine</b> <span>To appear</span></div><div><span class="title"><a href="/publication/2026-06-01-medical-llm-hallucination-survey/">Rethinking Medical LLM Hallucinations: A System-Level Survey</a></span><span class="note">Hallucination in medical LLMs comes from how the models generate text and has to be managed at the level of the whole system.</span><span class="links"><a href="https://osf.io/cw7zy/files/ngbdv">Preprint</a></span></div></li>
 </ul>
 
 <p class="quicklinks"><a href="/publications/">All publications</a> &nbsp;/&nbsp; <a href="/research/">Research</a> &nbsp;/&nbsp; <a href="/curriculum-vitae/">CV</a></p>
@@ -34,21 +31,18 @@ The medical work is both empirical and representational. At the [UCSF M2AI Lab](
 ## Research interests
 
 <ul class="interests-list">
-  <li><div><b>Mechanistic interpretability</b><span>Activation patching, probing, and steering, and when detection and control diverge.</span></div></li>
-  <li><div><b>Trust and cross-modal conflict</b><span>How models weigh input evidence against their priors, and whether that decision can be read from activations before generation.</span></div></li>
-  <li><div><b>Clinical ML</b><span>Evaluation that matches deployment conditions, subgroup analysis, interpretable representations, and detection methods that do not rely on an LLM judge.</span></div></li>
+  <li><div><b>Interpretability</b><span>Finding where a model makes a decision, and testing whether what can be read from its activations can also be changed.</span></div></li>
+  <li><div><b>Trust under conflicting evidence</b><span>How models weigh an input against their priors, in language and in vision.</span></div></li>
+  <li><div><b>Clinical ML</b><span>Whether these findings hold on medical models and clinical data, and evaluation that matches how a model is used.</span></div></li>
 </ul>
 
 ## News
 
 <ul class="timeline">
-<li><time>Oct 2026</time><span>Presented <em>Readable but Not Controllable</em> at the DAIH workshop, COLM 2026, San Francisco.</span></li>
-<li><time>Sep 2026</time><span><em>Believing Is Seeing</em>, the full-length extension of the ECCV paper, submitted to ICLR 2027.</span></li>
-<li><time>Aug 2026</time><span><em>Vision-Language Models Trust What They Can Discern</em> accepted to the eXCV workshop at ECCV 2026.</span></li>
-<li><time>Jul 2026</time><span><em>Readable but Not Controllable</em> accepted at COLM 2026; preprint on <a href="https://arxiv.org/abs/2607.00158">arXiv</a>.</span></li>
-<li><time>Jun 2026</time><span>Joined the UCSF M2AI Lab (Dr. Madhumita Sushil) and the Maron group at UMSOM (Dr. Bradley Maron) through The Tensor Lab.</span></li>
-<li><time>2026</time><span><em>Rethinking Medical LLM Hallucinations: A System-Level Survey</em> accepted at <em>Artificial Intelligence in Medicine</em>.</span></li>
-<li><time>2026</time><span>Reviewer for InterpScience (NeurIPS 2026), Actionable Interpretability (COLM 2026), and eXCV (ECCV 2026).</span></li>
-<li><time>Apr 2026</time><span>Began working with Dr. Vasha DuTell on modality arbitration in vision-language models.</span></li>
-<li><time>Jan 2026</time><span>Began working with Prof. Tanya Roosta on hallucination in medical LLMs.</span></li>
+<li><time>Nov 2026</time><span><em>Rethinking Medical LLM Hallucinations: A System-Level Survey</em> accepted at <em>Intelligence-Based Medicine</em>.</span></li>
+<li><time>Oct 2026</time><span><em>Believing Is Seeing</em> is under review at CVPR '27.</span></li>
+<li><time>Oct 2026</time><span>Presented <em>Readable but Not Controllable</em> at DAIH @ COLM '26 in San Francisco.</span></li>
+<li><time>Aug 2026</time><span><em>Vision-Language Models Trust What They Can Discern</em> accepted at eXCV @ ECCV '26.</span></li>
+<li><time>Jul 2026</time><span><em>Readable but Not Controllable</em> accepted at DAIH @ COLM '26. Preprint on <a href="https://arxiv.org/abs/2607.00158">arXiv</a>.</span></li>
+<li><time>Jun 2026</time><span>Joined the UCSF M2AI Lab and The Tensor Lab at UMSOM as a Machine Learning Research Fellow.</span></li>
 </ul>

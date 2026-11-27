@@ -3,14 +3,26 @@ title: "Benchmarking Somatic Mutation Representations for Cancer Typing and HRD 
 collection: publications
 category: review
 permalink: /publication/2026-09-15-somatic-mutation-representations/
-excerpt: "We introduce Bio MAF v4, a 948-feature interpretable representation of a tumor's somatic mutations, and benchmark it against mutational signatures and a MuAt transformer trained from scratch on 8,800 TCGA tumors across 20 cancer types. The feature table outperforms the transformer (0.738 vs 0.528 balanced accuracy) and transfers to 913 PCAWG tumors."
+excerpt: "How a tumor's mutations are represented matters more than the model that reads them. On 8,800 tumors, an interpretable feature table we designed outperforms a mutation transformer trained from scratch at identifying cancer type."
 date: 2026-09-15
-venue: "University of Maryland Institute for Health Computing"
-status: "In review"
+venue: ""
+status: "Under review"
 authors: "A. Ge, <b>V. Vankadaru</b>, X. Liu, J. Almeida, J. B. Balasubramanian, B. A. Maron"
-citation: "Ge, A., Vankadaru, V., Liu, X., Almeida, J., Balasubramanian, J. B., &amp; Maron, B. A. Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction. In review."
 ---
 
 With Aaron Ge, Xingyan Liu, Jonas Almeida, Jeya Balaji Balasubramanian, and [Dr. Bradley A. Maron](https://www.medschool.umaryland.edu/profiles/maron-bradley/) at the University of Maryland School of Medicine.
 
-Machine learning on somatic mutations differs less in the algorithm than in how the mutations are described: a count, a pattern of sequence contexts, gene-level annotations, or individual mutations read by a neural network. We compared four representations with elastic net and XGBoost against a MuAt-compatible transformer trained from scratch under a fixed compute budget. On 20 cancer types, mutational patterns plus Bio MAF v4 with XGBoost reached 0.738 balanced accuracy against 0.528 for the transformer, and the frozen model transferred to 913 PCAWG tumors.
+Models that work on a tumor's somatic mutations differ less in their algorithm than in how the mutations are described. We compared several descriptions: mutation counts, mutational signatures, a new interpretable feature table we call Bio MAF v4, and a transformer that reads individual mutations, trained from scratch under the same compute budget.
+
+On 8,800 tumors from TCGA, signatures plus Bio MAF v4 with a gradient-boosted model identified cancer type more accurately than the transformer, and the trained model transferred to an independent cohort. The gain depends on known cancer-gene annotations, which tells us what the representation is encoding.
+
+## BibTeX
+
+```bibtex
+@unpublished{ge2026somatic,
+  title  = {Benchmarking Somatic Mutation Representations for Cancer Typing and HRD Prediction},
+  author = {Ge, Aaron and Vankadaru, Vijay and Liu, Xingyan and Almeida, Jonas and Balasubramanian, Jeya Balaji and Maron, Bradley A.},
+  note   = {Under review},
+  year   = {2026}
+}
+```

@@ -41,10 +41,10 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p class="pub-meta">{% if post.status %}<span class="badge badge--{{ post.status | slugify }}">{{ post.status }}</span>{% endif %}<span class="pub-venue">{{ post.venue }}</span></p>
+          <p class="pub-meta">{% if post.status %}<span class="badge badge--{{ post.status | slugify }}">{{ post.status }}</span>{% endif %}{% if post.venue and post.venue != "" %} <span class="pub-sep" aria-hidden="true">/</span> <span class="pub-venue">{{ post.venue }}</span>{% endif %}</p>
           {% if post.authors %}<p class="pub-authors">{{ post.authors }}</p>{% endif %}
         {% elsif post.collection == 'research' %}
-          <p class="pub-meta">{% for t in post.tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+          <p class="pub-meta">{% for t in post.tags %}<span class="tag">{{ t }}</span> {% endfor %}</p>
           <p class="pub-authors">{{ post.subtitle }}</p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -57,19 +57,18 @@
     {% endif %}
     
     {% if post.collection == 'publications' %}
+      {% if post.figure %}<p class="pub-figure"><img src="{{ post.figure }}" alt="Main figure from {{ post.title | escape }}"></p>{% endif %}
       {% if post.paperurl or post.arxivurl or post.codeurl or post.openreviewurl %}
       <p class="pub-links">
-        {% if post.paperurl %}<a class="pill" href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.paperurl %}<a class="pill" href="{{ post.paperurl }}">{{ post.paperlabel | default: "PDF" }}</a>{% endif %}
         {% if post.arxivurl %}<a class="pill" href="{{ post.arxivurl }}">arXiv</a>{% endif %}
         {% if post.openreviewurl %}<a class="pill" href="{{ post.openreviewurl }}">OpenReview</a>{% endif %}
         {% if post.codeurl %}<a class="pill" href="{{ post.codeurl }}">Code</a>{% endif %}
-        <a class="pill pill--ghost" href="{{ base_path }}{{ post.url }}">Details</a>
       </p>
-      {% else %}
-      <p class="pub-links"><a class="pill pill--ghost" href="{{ base_path }}{{ post.url }}">Details</a></p>
       {% endif %}
     {% elsif post.collection == 'research' %}
-      <p class="pub-links"><a class="pill pill--ghost" href="{{ base_path }}{{ post.url }}">Read more</a></p>
+      {% if post.figure %}<p class="pub-figure"><img src="{{ post.figure }}" alt="Main figure for {{ post.title | escape }}"></p>{% endif %}
+      {% if post.links %}<p class="pub-links">{% for l in post.links %}<a class="pill{% unless forloop.first %} pill--ghost{% endunless %}" href="{{ l.url }}">{{ l.label }}</a> {% endfor %}</p>{% endif %}
     {% endif %}
 
   </article>

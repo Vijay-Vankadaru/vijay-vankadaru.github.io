@@ -212,3 +212,35 @@ h1, h2, h3, .page__title, .archive__item-title, .author__name { font-family: var
 .interests-list span { font-size: 0.86em; color: var(--ink-2); line-height: 1.55; }
 @media (max-width: 40em) { .interests-list li { grid-template-columns: 1fr; gap: 2px; } }
 .timeline li { grid-template-columns: 170px 1fr; gap: 18px; }
+
+/* Nov 2026 revision */
+.hero__links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 2em; }
+.pub-sep { color: var(--ink-3); }
+.papers .venue span { display: block; }
+.papers .links { display: block; margin-top: 7px; font-family: var(--mono); font-size: 0.72em; letter-spacing: 0.08em; text-transform: uppercase; }
+.papers .links a { color: var(--accent); border-bottom: 1px solid var(--rule); margin-right: 14px; }
+.pub-figure { margin: 0.8em 0 1em; }
+.pub-figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--rule); }
+.page__content pre, .page__content div.highlighter-rouge, .page__content figure.highlight { background: #0c0c0c !important; border: 1px solid var(--rule); border-radius: 0; margin: 0.6em 0 1.4em; }
+.page__content pre { padding: 14px 16px; overflow-x: auto; white-space: pre; font-family: var(--mono); font-size: 0.74em; line-height: 1.6; color: var(--ink-2); border: none; margin: 0; }
+.page__content pre code, .page__content pre span { background: transparent !important; color: var(--ink-2) !important; font-family: var(--mono); }
+.page__footer-copyright { font-family: var(--mono); font-size: 0.7em; letter-spacing: 0.08em; color: var(--ink-3); }
+.hero__lead { max-width: 46ch; }
+.pub-links { gap: 6px; }
+.pill { border-right: 1px solid var(--ink); }
+.page__content .pub-authors + p, header .pub-links { margin-top: 0.8em; }
+header .pub-authors { margin-bottom: 1.2em; }
+@media (max-width: 64em) {
+  .sidebar > div[itemscope] { display: flex; flex-wrap: wrap; align-items: center; row-gap: 12px; }
+  .sidebar .author__avatar, .sidebar .author__content { display: block; }
+  .sidebar .author__content { flex: 1 1 0; min-width: 0; line-height: 1.4; }
+  .author__urls-wrapper { display: block; flex: 0 0 100%; cursor: default; }
+  .author__urls { position: static; margin: 0; padding: 0; border: none; background: transparent; box-shadow: none; z-index: auto; }
+  .author__urls:before, .author__urls:after { display: none; }
+}
+.page__content div.highlighter-rouge:before, .page__content figure.highlight:before { display: none; }
+@media (max-width: 64em) {
+  .sidebar .author__avatar { flex: 0 0 84px; width: 84px; }
+  .sidebar .author__avatar img { width: 84px; max-width: 84px; height: auto; }
+  .sidebar .author__content { padding-left: 14px; padding-right: 0; }
+}
