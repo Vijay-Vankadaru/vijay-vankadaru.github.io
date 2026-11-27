@@ -9,6 +9,8 @@ venue: "eXCV @ ECCV '26"
 status: "Published"
 authors: "<b>V. Vankadaru</b>, V. DuTell"
 openreviewurl: "https://openreview.net/pdf?id=FbgTPGKH6x"
+posterurl: "/files/posters/vankadaru-excv-eccv26-poster.pdf"
+posterimg: "/images/posters/excv-eccv26.jpg"
 ---
 
 With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell).

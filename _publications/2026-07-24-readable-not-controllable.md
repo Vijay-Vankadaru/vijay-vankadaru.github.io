@@ -9,6 +9,8 @@ venue: "DAIH @ COLM '26"
 status: "Published"
 authors: "<b>V. Vankadaru</b>, A. Matthews, T. Roosta, P. Passban"
 arxivurl: "https://arxiv.org/abs/2607.00158"
+posterurl: "/files/posters/vankadaru-daih-colm26-poster.pdf"
+posterimg: "/images/posters/daih-colm26.jpg"
 ---
 
 With Asha Matthews, [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta), and Peyman Passban. I presented this at the DAIH workshop at COLM '26 in San Francisco.

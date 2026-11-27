@@ -7,6 +7,8 @@ subtitle: "Machine Learning Research Fellow, M2AI Lab, UCSF. Jun 2026 to present
 links:
   - label: "Manuscript (under review)"
     url: "/publication/2026-09-29-glioma-subgroup-bias/"
+posterurl: "/files/posters/danthinne-vankadaru-glioma-subgroup-poster.pdf"
+posterimg: "/images/posters/glioma-subgroup.jpg"
 ---
 
 I am a Machine Learning Research Fellow in the M2AI Lab at UCSF, working with [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil), Elisa Danthinne, and collaborators in neurosurgery and radiology.

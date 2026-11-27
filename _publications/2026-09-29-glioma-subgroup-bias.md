@@ -8,6 +8,8 @@ date: 2026-09-29
 venue: ""
 status: "Under review"
 authors: "E. S. Danthinne, <b>V. Vankadaru</b>, H. Miao, P. Nedelec, A. Rauschecker, R. Morshed, A. Molinaro, M. Sushil"
+posterurl: "/files/posters/danthinne-vankadaru-glioma-subgroup-poster.pdf"
+posterimg: "/images/posters/glioma-subgroup.jpg"
 ---
 
 With Elisa Danthinne, Hongbin Miao, Pierre Nedelec, Andreas Rauschecker, Ramin Morshed, Annette Molinaro, and [Dr. Madhumita Sushil](https://profiles.ucsf.edu/madhumita.sushil) at UCSF.

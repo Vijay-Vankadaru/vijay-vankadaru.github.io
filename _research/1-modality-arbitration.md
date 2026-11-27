@@ -11,6 +11,8 @@ links:
     url: "/publication/2026-10-01-vlm-discern/"
   - label: "OpenReview"
     url: "https://openreview.net/pdf?id=FbgTPGKH6x"
+posterurl: "/files/posters/vankadaru-excv-eccv26-poster.pdf"
+posterimg: "/images/posters/excv-eccv26.jpg"
 ---
 
 With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell) at UC Berkeley.

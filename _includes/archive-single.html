@@ -58,17 +58,18 @@
     
     {% if post.collection == 'publications' %}
       {% if post.figure %}<p class="pub-figure"><img src="{{ post.figure }}" alt="Main figure from {{ post.title | escape }}"></p>{% endif %}
-      {% if post.paperurl or post.arxivurl or post.codeurl or post.openreviewurl %}
+      {% if post.paperurl or post.arxivurl or post.codeurl or post.openreviewurl or post.posterurl %}
       <p class="pub-links">
         {% if post.paperurl %}<a class="pill" href="{{ post.paperurl }}">{{ post.paperlabel | default: "PDF" }}</a>{% endif %}
         {% if post.arxivurl %}<a class="pill" href="{{ post.arxivurl }}">arXiv</a>{% endif %}
         {% if post.openreviewurl %}<a class="pill" href="{{ post.openreviewurl }}">OpenReview</a>{% endif %}
         {% if post.codeurl %}<a class="pill" href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.posterurl %}<a class="pill pill--ghost" href="{{ post.posterurl }}">Poster</a>{% endif %}
       </p>
       {% endif %}
     {% elsif post.collection == 'research' %}
       {% if post.figure %}<p class="pub-figure"><img src="{{ post.figure }}" alt="Main figure for {{ post.title | escape }}"></p>{% endif %}
-      {% if post.links %}<p class="pub-links">{% for l in post.links %}<a class="pill{% unless forloop.first %} pill--ghost{% endunless %}" href="{{ l.url }}">{{ l.label }}</a> {% endfor %}</p>{% endif %}
+      {% if post.links %}<p class="pub-links">{% for l in post.links %}<a class="pill{% unless forloop.first %} pill--ghost{% endunless %}" href="{{ l.url }}">{{ l.label }}</a> {% endfor %}{% if post.posterurl %}<a class="pill pill--ghost" href="{{ post.posterurl }}">Poster</a>{% endif %}</p>{% endif %}
     {% endif %}
 
   </article>

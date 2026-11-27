@@ -11,6 +11,8 @@ links:
     url: "https://arxiv.org/abs/2607.00158"
   - label: "Survey (Intelligence-Based Medicine, to appear)"
     url: "/publication/2026-06-01-medical-llm-hallucination-survey/"
+posterurl: "/files/posters/vankadaru-daih-colm26-poster.pdf"
+posterimg: "/images/posters/daih-colm26.jpg"
 ---
 
 With [Prof. Tanya Roosta](https://www.ischool.berkeley.edu/people/tanya-roosta) at UC Berkeley, Asha Matthews, and Peyman Passban.
