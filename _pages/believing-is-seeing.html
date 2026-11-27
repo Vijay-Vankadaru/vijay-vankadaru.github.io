@@ -1,0 +1,21 @@
+---
+layout: null
+permalink: /believing-is-seeing/
+sitemap: false
+---
+{% assign pub = site.publications | where_exp: "p", "p.url contains 'believing-is-seeing'" | first %}{% assign target = pub.arxivurl | default: pub.paperurl %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ pub.title }}</title>
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url={{ target }}">
+<link rel="canonical" href="{{ target }}">
+<style>body{background:#000;color:#f2f2f2;font-family:sans-serif;padding:2em}a{color:#c4ad7a}</style>
+</head>
+<body>
+<p>{{ pub.title }}</p>
+<p><a href="{{ target }}">Open the paper</a> or see the <a href="{{ pub.url }}">summary page</a>.</p>
+<script>location.replace({{ target | jsonify }});</script>
+</body>
+</html>

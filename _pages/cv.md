@@ -21,7 +21,7 @@ Coursework: NLP with Deep Learning, Computer Vision, Applied Machine Learning, C
 
 ## Publications
 
-1. **V. Vankadaru**, V. DuTell. Believing Is Seeing: How Vision-Language Models Decide to Believe an Image. Under review at CVPR '27.
+1. **V. Vankadaru**, V. DuTell. Believing Is Seeing: How Vision-Language Models Decide to Believe an Image. Under review at CVPR '27. [PDF](/believing-is-seeing/)
 2. **V. Vankadaru**, V. DuTell. Vision-Language Models Trust What They Can Discern. *eXCV @ ECCV '26.*
 3. **V. Vankadaru**, A. Matthews, T. Roosta, P. Passban. Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination. *DAIH @ COLM '26.* [arXiv:2607.00158](https://arxiv.org/abs/2607.00158)
 4. A. Matthews, **V. Vankadaru**, T. Roosta, P. Passban. Rethinking Medical LLM Hallucinations: A System-Level Survey. *Intelligence-Based Medicine*, to appear.

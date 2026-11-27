@@ -8,9 +8,14 @@ date: 2026-09-30
 venue: "CVPR '27"
 status: "Under review"
 authors: "<b>V. Vankadaru</b>, V. DuTell"
+# When the arXiv link is live: delete the paperurl and paperlabel lines and add
+#   arxivurl: "https://arxiv.org/abs/XXXX.XXXXX"
+# The short link /believing-is-seeing/ follows whichever is set.
+paperurl: "/files/papers/vankadaru-dutell-believing-is-seeing.pdf"
+paperlabel: "PDF (preprint)"
 ---
 
-With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell). Under review at CVPR '27. The submission copy is confidential, so there is no PDF here.
+With [Dr. Vasha DuTell](https://www.ischool.berkeley.edu/people/vasha-dutell). Under review at CVPR '27. The preprint is linked above.
 
 When an image contradicts what a vision-language model expects to see, the model often answers from its expectation and ignores the image. Asked what sits on a pirate's shoulder, a model that expects a parrot may answer "parrot" even though the image shows an eagle. The answer is fluent either way, so a user cannot tell the image was set aside. We study how the model makes that choice, from the input pixels to the output, across eleven open models from eight architectures.
 

@@ -7,6 +7,8 @@ subtitle: "UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present."
 links:
   - label: "Believing Is Seeing (CVPR '27, under review)"
     url: "/publication/2026-09-30-believing-is-seeing/"
+  - label: "PDF"
+    url: "/believing-is-seeing/"
   - label: "Trust What They Can Discern (eXCV @ ECCV '26)"
     url: "/publication/2026-10-01-vlm-discern/"
   - label: "OpenReview"
