@@ -7,12 +7,12 @@ subtitle: "UC Berkeley, with Prof. Tanya Roosta. Jan 2026 to present."
 links:
   - label: "Readable but Not Controllable (DAIH @ COLM '26)"
     url: "/publication/2026-07-24-readable-not-controllable/"
-  - label: "arXiv"
-    url: "https://arxiv.org/abs/2607.00158"
   - label: "Survey (Intelligence-Based Medicine, accepted)"
     url: "/publication/2026-06-01-medical-llm-hallucination-survey/"
-# When the code repo is public, add:
-#   codeurl: "https://github.com/..."
+resources:
+  - label: "arXiv"
+    url: "https://arxiv.org/abs/2607.00158"
+codeurl: "https://github.com/vankadaruvijayberk/readable-not-controllable"
 posterurl: "/files/posters/vankadaru-daih-colm26-poster.pdf"
 posterimg: "/images/posters/daih-colm26.jpg"
 ---

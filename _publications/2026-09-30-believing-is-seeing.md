@@ -8,8 +8,7 @@ date: 2026-09-30
 venue: "CVPR '27"
 status: "Under review"
 authors: "<b>V. Vankadaru</b>, V. DuTell"
-# When the code repo is public, add:
-#   codeurl: "https://github.com/..."
+codeurl: "https://github.com/vankadaruvijayberk/vlm-modality-arbitration"
 # When the arXiv link is live: delete the paperurl and paperlabel lines and add
 #   arxivurl: "https://arxiv.org/abs/XXXX.XXXXX"
 # The short link /believing-is-seeing/ follows whichever is set.

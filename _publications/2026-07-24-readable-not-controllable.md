@@ -9,8 +9,7 @@ venue: "DAIH @ COLM '26"
 status: "Published"
 authors: "<b>V. Vankadaru</b>, A. Matthews, T. Roosta, P. Passban"
 arxivurl: "https://arxiv.org/abs/2607.00158"
-# When the code repo is public, add:
-#   codeurl: "https://github.com/..."
+codeurl: "https://github.com/vankadaruvijayberk/readable-not-controllable"
 posterurl: "/files/posters/vankadaru-daih-colm26-poster.pdf"
 posterimg: "/images/posters/daih-colm26.jpg"
 ---

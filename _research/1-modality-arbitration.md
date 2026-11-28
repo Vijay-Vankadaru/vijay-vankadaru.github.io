@@ -7,14 +7,14 @@ subtitle: "UC Berkeley, with Dr. Vasha DuTell. Apr 2026 to present."
 links:
   - label: "Believing Is Seeing (CVPR '27, under review)"
     url: "/publication/2026-09-30-believing-is-seeing/"
-  - label: "PDF"
-    url: "/believing-is-seeing/"
   - label: "Trust What They Can Discern (eXCV @ ECCV '26)"
     url: "/publication/2026-10-01-vlm-discern/"
-  - label: "OpenReview"
+resources:
+  - label: "CVPR preprint (PDF)"
+    url: "/believing-is-seeing/"
+  - label: "ECCV paper (OpenReview)"
     url: "https://openreview.net/pdf?id=FbgTPGKH6x"
-# When the code repo is public, add:
-#   codeurl: "https://github.com/..."
+codeurl: "https://github.com/vankadaruvijayberk/vlm-modality-arbitration"
 posterurl: "/files/posters/vankadaru-excv-eccv26-poster.pdf"
 posterimg: "/images/posters/excv-eccv26.jpg"
 ---

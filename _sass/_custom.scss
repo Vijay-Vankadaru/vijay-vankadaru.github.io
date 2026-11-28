@@ -245,3 +245,10 @@ header .pub-authors { margin-bottom: 1.2em; }
   .sidebar .author__content { padding-left: 14px; padding-right: 0; }
 }
 header .pub-links { margin-bottom: 1.4em; }
+.pub-links--res { margin-top: 10px; font-family: var(--mono); font-size: 0.7em; letter-spacing: 0.08em; text-transform: uppercase; display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; }
+.pub-links--res .pub-links__label { color: var(--ink-3); }
+.pub-links--res a { color: var(--accent); border-bottom: 1px solid var(--rule); text-decoration: none; }
+@media (max-width: 37.5em) {
+  .pub-meta .pub-sep { display: none; }
+  .pub-meta .pub-venue { display: block; margin-top: 6px; }
+}
