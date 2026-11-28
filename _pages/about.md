@@ -26,6 +26,12 @@ I am applying to PhD programs for Fall 2027.
   <li><div class="venue"><b>Intelligence-Based Medicine</b> <span>Accepted</span></div><div><span class="title"><a href="/publication/2026-06-01-medical-llm-hallucination-survey/">Rethinking Medical LLM Hallucinations: A System-Level Survey</a></span><span class="note">Hallucination in medical LLMs comes from how the models generate text and has to be managed at the level of the whole system.</span><span class="links"><a href="https://osf.io/cw7zy/files/ngbdv">Preprint</a></span></div></li>
 </ul>
 
+## Preprints
+
+<ul class="papers">
+  <li><div class="venue"><b>Preprint, 2026</b> <span>Ongoing</span> <span>First author</span></div><div><span class="title"><a href="/publication/2026-11-28-switch-cost/">Where a Language Switch Costs a Language Model: Word-Level Switch Cost in Natural Code-Switched Text</a></span><span class="note">With Luan Ye. The first word after a language switch is more surprising to a language model than the words before it, and the cost is tied to one direction of the context.</span><span class="links"><a href="/switch-cost/">PDF</a></span></div></li>
+</ul>
+
 <p class="quicklinks"><a href="/publications/">All publications</a> &nbsp;/&nbsp; <a href="/research/">Research</a> &nbsp;/&nbsp; <a href="/curriculum-vitae/">CV</a></p>
 
 ## Research interests
