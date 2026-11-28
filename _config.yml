@@ -93,6 +93,8 @@ publication_category:
     title: 'Published and accepted'
   review:
     title: 'Under review'
+  preprint:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
